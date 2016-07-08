@@ -38,7 +38,7 @@ assets:
 - path: "/uploads/home-stars@2x.jpg"
   name: home-stars@2x
   type: large
-layout: default
+layout: home
 ---
 
 Welcome to Mad Universe – your window to an alternate and parallel world of information and entertainment… …and coincidentally the most efficient mechanism for keeping track of the quantum exploits of writer/producer/director Chris Mortensen as he navigates the multiverse in pursuit of (in no particular order) fascinating people, scenic b-roll, reasonable green fees, pinot noir bargains and compelling documentary film subjects.
