@@ -1,9 +1,9 @@
 ---
-layout: project-page
 title: Artist 2013
 date: 2016-01-06 13:07:00 -08:00
+layout: project-page
 client_name: Artist 2013
-featured:
+featured: 
 video_link: "<iframe src='https://player.vimeo.com/video/69148899' frameborder='0'
   webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>"
 color: no-bkg

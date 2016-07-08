@@ -1,13 +1,13 @@
 ---
-layout: project-page
 title: 'American Gangster: Willie Lloyd'
 date: 2011-03-09 18:11:00 -08:00
+layout: project-page
 client_name: 
 featured: 
 video_link: <iframe src="https://player.vimeo.com/video/21184784" frameborder="0"
   webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-thumbnail_featured:
+thumbnail_featured: 
 project_thumbnail: "/uploads/willie-lloyd1-small.jpg"
 recent_thumbnail: "/uploads/header-willielloyd-medium.jpg"
 next_project_banner: "/uploads/header-willielloyd-medium.jpg"
@@ -20,7 +20,6 @@ images:
   type: medium
 - path: "/uploads/willie-lloyd1-small.jpg"
   name: willie-lloyd1-small
-layout: project-page
 ---
 
 **BET’s groundbreaking documentary program *American Gangster* has earned a rare mix of critical praise and popular acclaim. This series of one-hour episodes reflects on the life and times of American criminals.**

@@ -1,9 +1,9 @@
 ---
-layout: project-page
 title: The Moneychangers
 date: 2016-01-06 23:49:00 -08:00
 tags:
 - featured
+layout: project-page
 client_name: 
 video_link: <iframe src="https://player.vimeo.com/video/172443653" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

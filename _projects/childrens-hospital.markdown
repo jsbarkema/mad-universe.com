@@ -1,13 +1,13 @@
 ---
-layout: project-page
 title: Children’s Hospital of Los Angeles
 date: 2016-01-06 23:48:00 -08:00
+layout: project-page
 client_name: YuCo
-featured:
+featured: 
 video_link: <iframe src="https://player.vimeo.com/video/92856078" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-thumbnail_featured:
+thumbnail_featured: 
 next_project_banner: "/uploads/childrens-hospital-medium.jpg"
 project_thumbnail: "/uploads/childrens-hospital-small.jpg"
 recent_thumbnail: "/uploads/childrens-hospital-medium.jpg"
