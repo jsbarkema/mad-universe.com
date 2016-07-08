@@ -1,7 +1,6 @@
 ---
 title: Artist 2013
 date: 2016-01-06 13:07:00 -08:00
-layout: project-page
 client_name: Artist 2013
 featured: 
 video_link: "<iframe src='https://player.vimeo.com/video/69148899' frameborder='0'
@@ -11,7 +10,7 @@ thumbnail_featured: "/assets/header-artist-800.jpg"
 next_project_banner: "/uploads/header-artist-medium.jpg"
 project_thumbnail: "/uploads/artist-1-small.jpg"
 recent_thumbnail: "/uploads/header-artist-medium.jpg"
-assets:
+images:
 - path: "/uploads/header-artist-400.jpg"
   name: header-artist-400
 - path: "/uploads/header-artist-medium.jpg"
@@ -25,7 +24,8 @@ assets:
 Project Type:
 - TV Series
 Year:
-- '2013'
+- 2013
+layout: project-page
 ---
 
 **Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.**
