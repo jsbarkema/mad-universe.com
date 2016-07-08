@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<!-- Header / Navigation -->
-		<header class="bg-{{meta['color'] | fallback: 'dark_blue'}}">
+		<header class="bg-{{page['color'] | fallback: 'dark_blue'}}">
 			<nav class="container">
 				<div class="row">
 					<div class="logo-section">
@@ -17,7 +17,7 @@
 					</div>
 					<ul class="navbar-list">
 						{% for page in site.pages %}
-						{% if page.meta.main_nav == 'true' %}
+						{% if page.main_nav == 'true' %}
 						<li>
 							<a href="{{ page.url }}"{% if page.url == url %} class="selected"{% endif %}>{{ page.title }}</a>
 						</li>
@@ -32,7 +32,7 @@
 		{{ content }}
 		</div>
     <!-- Footer -->
-    {% include 'includes/footer' %}
-    {% include 'includes/scripts' %}
+    {% include footer.html %}
+    {% include scripts.html %}
 	</body>
 </html>

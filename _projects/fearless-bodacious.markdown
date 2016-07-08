@@ -1,12 +1,19 @@
 ---
+layout: project-page
 title: 'Fearless: Bodacious'
+<<<<<<< HEAD
 date: 2011-03-15 01:34:00 Z
+client_name:
+featured:
+=======
+date: 2011-03-14 18:34:00 -07:00
 client_name: 
 featured: 
+>>>>>>> origin/master
 video_link: <iframe src="https://player.vimeo.com/video/21237831" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-thumbnail_featured: 
+thumbnail_featured:
 project_thumbnail: "/uploads/bodacious1-small.jpg"
 recent_thumbnail: "/uploads/header-bodacious-medium.jpg"
 next_project_banner: "/uploads/header-bodacious-medium.jpg"

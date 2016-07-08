@@ -1,20 +1,18 @@
 ---
 title: mad-universe.com
-url: http://mad-universe.siteleaf.net
 timezone: Pacific Time (US & Canada)
-permalink: pretty
-chris_email: chris@mad-universe.com
-dark_blue: "#000910"
-light_yellow: "#fafae5"
-dark_grey: "#333333"
-light_green: "#e6f9ee"
 collections:
-  uploads:
-    title: Uploads
-    output: true
   news:
+    title: News
+    output: true
+  posts:
+    title: Posts
     output: true
   projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
     output: true
 defaults:
 - scope:
@@ -22,8 +20,14 @@ defaults:
     type: posts
   values:
     permalink: "/posts/:title/"
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+url: http://mad-universe.siteleaf.net
+permalink: pretty
+chris_email: chris@mad-universe.com
+dark_blue: "#000910"
+light_yellow: "#fafae5"
+dark_grey: "#333333"
+light_green: "#e6f9ee"
   extensions:
   - autolink
   - fenced_code_blocks

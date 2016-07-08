@@ -28,7 +28,7 @@
 		<!-- Big Image -->
 		<div class="header-home">
 			<!-- Header / Navigation -->
-			<header class="bg-{{meta['color'] | fallback: 'dark_blue'}}">
+			<header class="bg-{{page['color'] | fallback: 'dark_blue'}}">
 				<nav class="container">
 					<div class="row">
 						<div class="logo-section">
@@ -52,29 +52,30 @@
 					<div class="slideshow-block">
 						<a href="#" class="link"></a>
 						<ul class="slides">
-							<li><img src="/assets/0.png"/></li>
-							<li><img src="/assets/1.png"/></li>
-							<li><img src="/assets/2.png"/></li>
-							<li><img src="/assets/3.png"/></li>
-							<li><img src="/assets/4.png"/></li>
-							<li><img src="/assets/5.png"/></li>
-							<li><img src="/assets/6.png"/></li>
-							<li><img src="/assets/7.png"/></li>
-							<li><img src="/assets/8.png"/></li>
-							<li><img src="/assets/9.png"/></li>
-							<li><img src="/assets/10.png"/></li>
-							<li><img src="/assets/11.png"/></li>
-							<li><img src="/assets/12.png"/></li>
+							<li><img src="/uploads/0.png"/></li>
+							<li><img src="/uploads/1.png"/></li>
+							<li><img src="/uploads/2.png"/></li>
+							<li><img src="/uploads/3.png"/></li>
+							<li><img src="/uploads/4.png"/></li>
+							<li><img src="/uploads/5.png"/></li>
+							<li><img src="/uploads/6.png"/></li>
+							<li><img src="/uploads/7.png"/></li>
+							<li><img src="/uploads/8.png"/></li>
+							<li><img src="/uploads/9.png"/></li>
+							<li><img src="/uploads/10.png"/></li>
+							<li><img src="/uploads/11.png"/></li>
+							<li><img src="/uploads/12.png"/></li>
 						</ul>
 					</div>
-					<div class="intro-copy">{{ body }}</div>
+					<div class="intro-copy">{{ content }}</div>
 				</div>
 			</div>
 		</div>
 		<!-- Main Content -->
-		{{ content }}
+		{% include recent-news.html %}
+		{% include recent-projects.html %}
     <!-- Footer -->
-    {% include 'includes/footer' %}
-    {% include 'includes/scripts' %}
+    {% include footer.html %}
+    {% include scripts.html %}
 	</body>
 </html>

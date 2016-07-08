@@ -1,13 +1,14 @@
 ---
+layout: project-page
 title: Ayn Rand and the Prophecy of Atlas Shrugged
-date: 2016-01-05 08:15:00 Z
+date: 2016-01-05 00:15:00 -08:00
 color: no-bkg
 video_link: "<style>.embed-container { position: relative; padding-bottom: 56.25%;
   height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container
   object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%;
   height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/pMnOOV5WtVs'
   frameborder='0' allowfullscreen></iframe></div>"
-thumbnail_featured: 
+thumbnail_featured:
 next_project_banner: "/uploads/header-ayn-rand-medium.jpg"
 project_thumbnail: "/uploads/header-ayn-rand-small.jpg"
 recent_thumbnail: "/uploads/header-ayn-rand-medium.jpg"

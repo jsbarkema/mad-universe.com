@@ -1,17 +1,16 @@
 {% capture content %}
 <section class="row">
 	<article class="container">
-		{{ body }}
+		{{ content }}
 	</article>
-	{% if meta['video_link'] %}
+	{% if page['video_link'] %}
 	<article class="video">
 		<div class="video-wrap">
-			{{ meta['video_link'] }}
+			{{ page['video_link'] }}
 		</div>
 	</article>
 	{% endif %}
 </section>
-{% include 'includes/call-to-action' %}
-{% include 'includes/next-project' %}
+{% include call-to-action.html %}
+{% include next-project.html %}
 {% endcapture %}
-{% include 'layouts/project-page' %}

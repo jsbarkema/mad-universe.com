@@ -1,11 +1,11 @@
 ---
 title: Hangin With the O’Jays
-date: 2011-06-15 07:00:00 Z
+date: 2011-06-15 00:00:00 -07:00
+tags:
+- O’Jays
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - TV Series
-tags:
-- O’Jays
 ---
 
 With Walt Williams and Eddie Levert – original lead singers of the legendary O’Jays (Love Train, For the Love of Money, Backstabbers).
