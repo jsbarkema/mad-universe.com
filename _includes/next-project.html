@@ -1,0 +1,31 @@
+{% if type == 'post' and (next or previous) %}
+<section class="row">
+  {% if next %}
+  <article class="next-project post-module twelve columns">
+    <a href="{{ next.url }}">
+      <div class="post-thumb">
+        <img src="{{ next.meta['next_project_banner'] }}" class="u-full-width">
+      </div>
+      <div class="overlay">
+        <div class="project-header container">
+          <h3><span>Next Project</span><br>{{ next.title }}</h3>
+        </div>
+      </div>
+    </a>
+  </article>
+  {% else %}
+  <article class="next-project post-module twelve columns">
+    <a href="{{ previous.url }}">
+      <div class="post-thumb">
+        <img src="{{ previous.meta['next_project_banner'] }}" class="u-full-width">
+      </div>
+      <div class="overlay">
+        <div class="project-header container">
+          <h3><span>Next Project</span><br>{{ previous.title }}</h3>
+        </div>
+      </div>
+    </a>
+  </article>
+  {% endif %}
+</section>
+{% endif %}
