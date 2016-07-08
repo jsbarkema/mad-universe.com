@@ -1,14 +1,13 @@
 ---
 title: 'Beyond the Glory: Mike Ditka'
 date: 2015-12-29 15:24:00 -08:00
-layout: project-page
 video_link: <iframe src="https://player.vimeo.com/video/28461070" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 next_project_banner: "/uploads/header-ditka-medium.jpg"
 project_thumbnail: "/uploads/ditka1-small.jpg"
 recent_thumbnail: "/uploads/header-ditka-medium.jpg"
 color: no-bkg
-assets:
+images:
 - path: "/uploads/header-ditka-medium.jpg"
   name: header-ditka-medium
   type: medium
@@ -19,6 +18,7 @@ assets:
   name: ditka1-small
 - path: "/uploads/ditka1-medium.jpg"
   name: ditka1-medium
+layout: project-page
 ---
 
 **He was ‘Da Coach’ of the legendary 1985 Super Bowl Champion Chicago Bears.**
