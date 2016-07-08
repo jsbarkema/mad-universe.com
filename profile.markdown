@@ -1,7 +1,7 @@
 ---
 title: Profile
 date: 2015-12-24 18:12:00 -08:00
-main_nav: 'true'
+main_nav: true
 logo_ae: "/uploads/logo-ae.png"
 logo_bio: "/uploads/logo-bio.png"
 logo_bet: "/uploads/logo-bet.png"
@@ -54,6 +54,7 @@ assets:
   name: logo-tvone
 - path: "/uploads/logo-vh1.png"
   name: logo-vh1
+layout: default
 ---
 
 Chris Mortensen an award winning writer, producer and director has in the last fifteen years produced more than 100 hours of documentary and reality programming. His programs have appeared on History Channel, A&E, Discovery, TLC, BET, VH-1, TV-One, Lifetime Network, Fox Sports, ESPN, Travel Channel, Versus. GSN, TNN, Spike, et al.
