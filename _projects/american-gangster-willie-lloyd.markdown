@@ -19,7 +19,7 @@ assets:
   type: medium
 - path: "/uploads/willie-lloyd1-small.jpg"
   name: willie-lloyd1-small
-layout: default
+layout: project-page
 ---
 
 **BET’s groundbreaking documentary program *American Gangster* has earned a rare mix of critical praise and popular acclaim. This series of one-hour episodes reflects on the life and times of American criminals.**
