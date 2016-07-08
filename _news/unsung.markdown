@@ -1,6 +1,9 @@
 ---
 title: Fabled R&B group ‘The Manhattans’ No Longer ‘Unsung’
-date: 2014-04-15 06:42:00 Z
+date: 2014-04-14 23:42:00 -07:00
+tags:
+- Manhattans
+- Unsung
 thumbnail: "/uploads/manhattans2.jpg"
 assets:
 - path: "/uploads/manhattans2.jpg"
@@ -12,9 +15,6 @@ assets:
   name: manhattans1-1024x764
 Project Type:
 - TV Series
-tags:
-- Manhattans
-- Unsung
 ---
 
 Excerpt.

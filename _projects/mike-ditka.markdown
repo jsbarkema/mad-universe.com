@@ -1,6 +1,6 @@
 ---
 title: 'Beyond the Glory: Mike Ditka'
-date: 2015-12-29 23:24:00 Z
+date: 2015-12-29 15:24:00 -08:00
 video_link: <iframe src="https://player.vimeo.com/video/28461070" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 next_project_banner: "/uploads/header-ditka-medium.jpg"

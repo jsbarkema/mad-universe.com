@@ -1,6 +1,6 @@
 ---
 title: 'American Gangster: Melvin Williams'
-date: 2011-03-19 01:22:00 Z
+date: 2011-03-18 18:22:00 -07:00
 client_name: 
 featured: 
 video_link: <iframe src="https://player.vimeo.com/video/21240826" width="640" height="480"

@@ -1,6 +1,6 @@
 ---
 title: Pre-Production Begins on “The Moneychangers”
-date: 2014-04-18 06:49:00 Z
+date: 2014-04-17 23:49:00 -07:00
 thumbnail: "/uploads/moneychangers1.jpg"
 assets:
 - path: "/uploads/moneychangers1.jpg"

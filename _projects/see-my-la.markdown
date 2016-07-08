@@ -1,6 +1,6 @@
 ---
 title: See My LA
-date: 2011-03-10 02:26:00 Z
+date: 2011-03-09 18:26:00 -08:00
 published: false
 client_name: 
 featured: 

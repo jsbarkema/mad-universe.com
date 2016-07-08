@@ -1,6 +1,6 @@
 ---
 title: Children’s Hospital of Los Angeles
-date: 2016-01-07 07:48:00 Z
+date: 2016-01-06 23:48:00 -08:00
 client_name: YuCo
 featured: 
 video_link: <iframe src="https://player.vimeo.com/video/92856078" width="640" height="360"

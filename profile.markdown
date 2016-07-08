@@ -1,6 +1,6 @@
 ---
 title: Profile
-date: 2015-12-25 02:12:00 Z
+date: 2015-12-24 18:12:00 -08:00
 main_nav: 'true'
 logo_ae: "/uploads/logo-ae.png"
 logo_bio: "/uploads/logo-bio.png"

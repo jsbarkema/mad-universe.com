@@ -1,6 +1,8 @@
 ---
 title: Ayn Rand Documentary Sneak-Previewed
-date: 2011-08-12 06:35:00 Z
+date: 2011-08-11 23:35:00 -07:00
+tags:
+- Ayn Rand
 thumbnail: "/uploads/thumb-temp.jpg"
 assets:
 - path: "/uploads/rand-news-1.jpg"
@@ -13,8 +15,6 @@ assets:
   header_type: news
 Project Type:
 - Documentary
-tags:
-- Ayn Rand
 ---
 
 Documentary kicks off OCON 2011 gathering.

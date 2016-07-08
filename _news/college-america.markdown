@@ -1,6 +1,8 @@
 ---
 title: Mad Goes West for College America
-date: 2014-04-18 06:47:00 Z
+date: 2014-04-17 23:47:00 -07:00
+tags:
+- College America
 thumbnail: "/uploads/college1.jpg"
 assets:
 - path: "/uploads/college1.jpg"
@@ -8,8 +10,6 @@ assets:
   header-type: news
 Project Type:
 - Promotional Film
-tags:
-- College America
 ---
 
 Spots will begin airing later this spring.

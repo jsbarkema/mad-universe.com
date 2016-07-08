@@ -1,6 +1,10 @@
 ---
 title: Children’s Hospital Los Angeles
-date: 2014-04-16 06:44:00 Z
+date: 2014-04-15 23:44:00 -07:00
+tags:
+- Children’s Hospital
+- ABC7
+- Imagine
 thumbnail: "/uploads/child-hospital-400.jpg"
 assets:
 - path: "/uploads/hospital2-1024x570.jpg"
@@ -14,10 +18,6 @@ assets:
   header-type: news
 Project Type:
 - TV Special
-tags:
-- Children’s Hospital
-- ABC7
-- Imagine
 ---
 
 TV Special to run during Holiday Season

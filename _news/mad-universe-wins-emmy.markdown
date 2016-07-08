@@ -1,6 +1,10 @@
 ---
 title: Mad Universe Wins Emmy
-date: 2015-12-30 02:43:00 Z
+date: 2015-12-29 18:43:00 -08:00
+tags:
+- Awards
+- Children’s Hospital
+- featured
 thumbnail: "/uploads/emmy-crop-400.jpg"
 featured: 'true'
 color: 
@@ -13,10 +17,6 @@ assets:
   name: emmy-crop-800
 - path: "/uploads/emmy-crop-400.jpg"
   name: emmy-crop-400
-tags:
-- Awards
-- Children’s Hospital
-- featured
 ---
 
 TV Special about local Children’s Hospital wins award.

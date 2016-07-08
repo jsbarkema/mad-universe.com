@@ -1,11 +1,11 @@
 ---
 title: Documentary Based on Atlas Shrugged
-date: 2011-08-11 06:29:00 Z
+date: 2011-08-10 23:29:00 -07:00
+tags:
+- Ayn Rand
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - Documentary
-tags:
-- Ayn Rand
 ---
 
 Mad Universe wraps up two year project.
