@@ -10,7 +10,7 @@ thumbnail_featured:
 project_thumbnail: "/uploads/willie-lloyd1-small.jpg"
 recent_thumbnail: "/uploads/header-willielloyd-medium.jpg"
 next_project_banner: "/uploads/header-willielloyd-medium.jpg"
-assets:
+images:
 - path: "/uploads/header-willielloyd@2x.jpg"
   name: header-willielloyd@2x
   type: large
