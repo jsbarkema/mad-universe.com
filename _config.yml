@@ -20,7 +20,6 @@ defaults:
     type: posts
   values:
     permalink: "/posts/:title/"
-markdown: kramdown
 url: http://mad-universe.siteleaf.net
 permalink: pretty
 chris_email: chris@mad-universe.com
@@ -28,6 +27,8 @@ dark_blue: "#000910"
 light_yellow: "#fafae5"
 dark_grey: "#333333"
 light_green: "#e6f9ee"
+markdown: redcarpet
+redcarpet:
   extensions:
   - autolink
   - fenced_code_blocks

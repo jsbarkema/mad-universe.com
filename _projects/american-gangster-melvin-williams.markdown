@@ -1,15 +1,9 @@
 ---
 layout: project-page
 title: 'American Gangster: Melvin Williams'
-<<<<<<< HEAD
-date: 2011-03-19 01:22:00 Z
-client_name:
-featured:
-=======
 date: 2011-03-18 18:22:00 -07:00
 client_name: 
 featured: 
->>>>>>> origin/master
 video_link: <iframe src="https://player.vimeo.com/video/21240826" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
