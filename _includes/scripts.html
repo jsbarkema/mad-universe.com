@@ -1,0 +1,26 @@
+<script src="/js/app.min.js" type="text/javascript"></script>
+<script>
+   jQuery(function($){
+
+   // Cycle plugin
+   $('.slides').cycle({
+      fx:     'none',
+      speed:   1,
+      timeout: 70
+   }).cycle("pause");
+
+  // Pause & play on hover
+  $('.slideshow-block').hover(function(){
+    $(this).find('.slides').addClass('active').cycle('resume');
+  }, function(){
+
+  $(this).find('.slides').removeClass('active').cycle('pause');
+    });
+});
+</script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".main-content").fitVids();
+  });
+</script>

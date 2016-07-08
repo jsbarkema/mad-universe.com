@@ -1,0 +1,40 @@
+---
+title: mad-universe.com
+timezone: Pacific Time (US & Canada)
+collections:
+  news:
+    title: News
+    output: true
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/posts/:title/"
+url: http://mad-universe.siteleaf.net
+permalink: pretty
+chris_email: chris@mad-universe.com
+dark_blue: "#000910"
+light_yellow: "#fafae5"
+dark_grey: "#333333"
+light_green: "#e6f9ee"
+markdown: redcarpet
+redcarpet:
+  extensions:
+  - autolink
+  - fenced_code_blocks
+  - lax_spacing
+  - strikethrough
+  - superscript
+  - tables
+  - footnotes
+  - highlight
