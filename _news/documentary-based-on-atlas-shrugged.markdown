@@ -3,7 +3,7 @@ title: Documentary Based on Atlas Shrugged
 date: 2011-08-10 23:29:00 -07:00
 tags:
 - Ayn Rand
-position: 5
+position: 6
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - Documentary
