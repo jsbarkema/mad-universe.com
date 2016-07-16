@@ -3,7 +3,7 @@ title: Pilot for “Artist 2013” series features Concert Pianist Yana Reznik
 date: 2014-04-13 23:38:00 -07:00
 tags:
 - Artist 2013
-position: 5
+position: 6
 thumbnail: "/uploads/yana4.jpg"
 assets:
 - path: "/uploads/yana4.jpg"

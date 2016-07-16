@@ -3,7 +3,7 @@ title: Ayn Rand Documentary Sneak-Previewed
 date: 2011-08-11 23:35:00 -07:00
 tags:
 - Ayn Rand
-position: 4
+position: 5
 thumbnail: "/uploads/thumb-temp.jpg"
 assets:
 - path: "/uploads/rand-news-1.jpg"
