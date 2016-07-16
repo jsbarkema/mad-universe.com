@@ -5,7 +5,7 @@ client_name:
 featured: 
 video_link: <iframe src="https://player.vimeo.com/video/21238910" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-color: blue
+color: 
 thumbnail_featured: 
 project_thumbnail: "/uploads/dennis-connor1-small.jpg"
 next_project_banner: "/uploads/header-dennis-connor-medium.jpg"
