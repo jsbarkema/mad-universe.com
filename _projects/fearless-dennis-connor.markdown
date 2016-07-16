@@ -11,14 +11,14 @@ project_thumbnail: "/uploads/dennis-connor1-small.jpg"
 next_project_banner: "/uploads/header-dennis-connor-medium.jpg"
 recent_thumbnail: "/uploads/header-dennis-connor-medium.jpg"
 images:
-- path: "/uploads/dennis-connor1-small.jpg"
-  name: dennis-connor1-small
-- path: "/uploads/header-dennis-connor-medium.jpg"
-  name: header-dennis-connor-medium
-  type: medium
 - path: "/uploads/header-dennis-connor@2x.jpg"
   name: header-dennis-connor@2x
   type: large
+- path: "/uploads/header-dennis-connor-medium.jpg"
+  name: header-dennis-connor-medium
+  type: medium
+- path: "/uploads/dennis-connor1-small.jpg"
+  name: dennis-connor1-small
 layout: project-page
 ---
 
