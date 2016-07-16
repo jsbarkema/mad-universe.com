@@ -4,7 +4,7 @@ date: 2011-05-12 23:22:00 -07:00
 tags:
 - Jesse Ventura
 - TruTV
-position: 2
+position: 3
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - TV Series
