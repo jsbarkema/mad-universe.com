@@ -3,6 +3,7 @@ title: Mad Goes West for College America
 date: 2014-04-17 23:47:00 -07:00
 tags:
 - College America
+position: 8
 thumbnail: "/uploads/college1.jpg"
 assets:
 - path: "/uploads/college1.jpg"

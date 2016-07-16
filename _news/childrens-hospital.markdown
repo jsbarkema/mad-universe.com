@@ -5,6 +5,7 @@ tags:
 - Children’s Hospital
 - ABC7
 - Imagine
+position: 7
 thumbnail: "/uploads/child-hospital-400.jpg"
 assets:
 - path: "/uploads/hospital2-1024x570.jpg"
