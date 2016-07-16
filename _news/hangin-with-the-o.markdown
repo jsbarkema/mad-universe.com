@@ -3,7 +3,7 @@ title: Hangin With the O’Jays
 date: 2011-06-15 00:00:00 -07:00
 tags:
 - O’Jays
-position: 5
+position: 6
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - TV Series
