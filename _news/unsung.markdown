@@ -4,7 +4,7 @@ date: 2014-04-14 23:42:00 -07:00
 tags:
 - Manhattans
 - Unsung
-position: 7
+position: 9
 thumbnail: "/uploads/manhattans2.jpg"
 assets:
 - path: "/uploads/manhattans2.jpg"
