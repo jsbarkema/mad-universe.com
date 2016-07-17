@@ -19,7 +19,7 @@ logo_tru: "/uploads/logo-true.png"
 logo_vh1: "/uploads/logo-vh1.png"
 logo_tvone: "/uploads/logo-tvone.png"
 headline: It’s good to be a little mad.
-assets:
+images:
 - path: "/uploads/bio_pic.jpg"
   name: bio-pic
 - path: "/uploads/logo-ae.png"
