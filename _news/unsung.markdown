@@ -5,6 +5,7 @@ tags:
 - Manhattans
 - Unsung
 position: 9
+color: dark_blue
 thumbnail: "/uploads/manhattans2.jpg"
 assets:
 - path: "/uploads/manhattans2.jpg"
