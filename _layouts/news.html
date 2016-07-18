@@ -1,4 +1,7 @@
-{% capture content %}
+---
+layout: default
+---
+
 <section class="parent container">
   {% if parent %}
     <h1>{{parent.title}}: {{title}}</h1>
@@ -8,11 +11,11 @@
   {% for post in taxonomy['tags']['featured'].posts limit:1 %}
     {% assign featured_ids = featured_ids | append:',' | append:post.id %}
     <article class="row">
-    	<div class="twelve columns post-feature-container" style="background-image: url('{{ post.meta['featured-thumbnail']}}');">
+    	<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured-thumbnail }}');">
     		<div class="post-feature-info">
-    			<h3><a href="{{post.url}}">{{ post.title }}</a></h3>
-    			{{ post.excerpt }}
-    			<a href="{{ post.url }}">View project &raquo;</a>
+    			<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+    			{{ page.excerpt }}
+    			<a href="{{ page.url }}">View project &raquo;</a>
     		</div>
     	</div>
     </article>
@@ -21,13 +24,13 @@
     {% for post in posts %}
       {% unless featured_ids contains post.id %}
         <article class="news post-module four columns">
-          <a href="{{ post.url }}" class="u-full-width">
-            <div class="post-thumb" style="background-image: url('{{ post.meta['thumbnail'] }}');"></div>
+          <a href="{{ page.url }}" class="u-full-width">
+            <div class="post-thumb" style="background-image: url('{{ page.thumbnail }}');"></div>
           </a>
           <div class="post-copy">
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            {{ post.excerpt | strip html }}
-            <a href="{{ post.url }}">View post &raquo;</a>
+            <h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+            {{ page.excerpt | strip html }}
+            <a href="{{ page.url }}">View post &raquo;</a>
           </div>
         </article>
       {% endunless %}
@@ -37,6 +40,3 @@
 {% if parent %}
   <p><a href="{{ parent.url }}">&larr; Back to {{ parent.title }}</a></p>
 {% endif %}
-{% endcapture %}
-
-{% include 'default.html' %}
