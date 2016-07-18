@@ -7,7 +7,7 @@ tags:
 - featured
 position: 0
 thumbnail: "/uploads/emmy-crop-400.jpg"
-featured: 'true'
+featured: true
 color: 
 featured-thumbnail: "/uploads/emmy-crop-1000.jpg"
 assets:
@@ -18,6 +18,7 @@ assets:
   name: emmy-crop-800
 - path: "/uploads/emmy-crop-400.jpg"
   name: emmy-crop-400
+layout: news-page
 ---
 
 TV Special about local Children’s Hospital wins award.
