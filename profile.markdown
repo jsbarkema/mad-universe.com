@@ -3,9 +3,9 @@ title: Profile
 date: 2015-12-24 18:12:00 -08:00
 navigation_weight: 2
 headline: It’s good to be a little mad.
+bio_pic:
+  path: "/uploads/bio_pic.jpg"
 images:
-- path: "/uploads/bio_pic.jpg"
-  name: bio-pic
 - path: "/uploads/logo-ae.png"
   name: logo-ae
 - path: "/uploads/logo-lifetime.png"
