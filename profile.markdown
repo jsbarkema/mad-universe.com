@@ -2,20 +2,6 @@
 title: Profile
 date: 2015-12-24 18:12:00 -08:00
 navigation_weight: 2
-logo_bet: "/uploads/logo-bet.png"
-logo_discovery: "/uploads/logo-discovery.png"
-logo_espn: "/uploads/logo-espn.png"
-logo_gsn: "/uploads/logo-gsn.png"
-logo_fox-sports: "/uploads/logo-fox-sports.png"
-logo_history: "/uploads/logo-history.png"
-logo_lifetime: "/uploads/logo-lifetime.png"
-logo_spike: "/uploads/logo-spike.png"
-logo_tlc: "/uploads/logo-tlc.png"
-logo_tnn: "/uploads/logo-tnn.png"
-logo_travel: "/uploads/logo-travel.png"
-logo_tru: "/uploads/logo-true.png"
-logo_vh1: "/uploads/logo-vh1.png"
-logo_tvone: "/uploads/logo-tvone.png"
 headline: It’s good to be a little mad.
 images:
 - path: "/uploads/bio_pic.jpg"
