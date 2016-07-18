@@ -16,6 +16,7 @@ assets:
   header_type: news
 Project Type:
 - Documentary
+layout: news-page
 ---
 
 Documentary kicks off OCON 2011 gathering.
