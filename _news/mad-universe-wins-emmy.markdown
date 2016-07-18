@@ -8,7 +8,7 @@ tags:
 position: 0
 thumbnail: "/uploads/emmy-crop-400.jpg"
 featured: true
-color: 
+color: dark_blue
 featured-thumbnail: "/uploads/emmy-crop-1000.jpg"
 assets:
 - path: "/uploads/emmy-crop-1000.jpg"
