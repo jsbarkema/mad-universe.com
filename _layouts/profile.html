@@ -3,13 +3,11 @@ layout: default
 ---
 
 <div class="profile-body container">
-  <h1>{{ page['headline'] }}</h1>
+  <h1>{{ page.headline }}</h1>
   {{ content }}
 </div>
 <div class="profile-image row">
-  {% for image in page.images %}{% if image.name == 'bio-pic' %}
-    <img src="{{ image.path }}" class="u-full-width">
-  {% endif %}{% endfor %}
+  <img src="{{ page.bio_pic }}" class="u-full-width">
 </div>
 <div class="logo-grid">
    <div class="container">
@@ -17,54 +15,11 @@ layout: default
    </div>
    <div class="container">
       <ul class="row">
-         <li class="logo-module">
-            <img src="{{ page.logo_ae }}" alt="{{ page.images.name }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_bio }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_bet }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_discovery }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_espn }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_gsn }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_fox-sports }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_history }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_lifetime }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_spike }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.images.logo_tlc }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_tnn }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_travel }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_tru }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_tvone }}">
-         </li>
-         <li class="logo-module">
-            <img src="{{ page.logo_vh1 }}">
-         </li>
+        {% for image in page.images %}
+        <li class="logo-module">
+          <img src="{{ image.path }}" alt="{{ image.name }}">
+        </li>
+        {% endfor %}
       </ul>
    </div>
 </div>

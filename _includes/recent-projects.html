@@ -1,7 +1,7 @@
 <div class="container">
   <section class="recent-section row project-grid">
     <h2>Recent Projects</h2>
-    {% for page in site.projects | post limit:2 %}
+    {% for page in site.projects limit:2 % sort: 'date' %}
       <article class="projects post-module six columns collapse">
         <div class="post-thumb">
           <img src="{{ page.recent_thumbnail }}" class="u-full-width">
