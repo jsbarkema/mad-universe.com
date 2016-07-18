@@ -19,6 +19,7 @@ assets:
   header-type: news
 Project Type:
 - TV Special
+layout: news-page
 ---
 
 TV Special to run during Holiday Season
