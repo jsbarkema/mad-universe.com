@@ -11,6 +11,7 @@ assets:
   header-type: news
 Project Type:
 - Promotional Film
+layout: news-page
 ---
 
 Spots will begin airing later this spring.
