@@ -1,7 +1,7 @@
 ---
 title: 'Fearless: Bodacious'
 date: 2011-03-14 18:34:00 -07:00
-position: 7
+position: 8
 client_name: 
 featured: 
 video_link: <iframe src="https://player.vimeo.com/video/21237831" width="640" height="480"
