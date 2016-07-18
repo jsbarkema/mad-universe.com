@@ -10,6 +10,7 @@ assets:
   thumb: post-thumb
 Project Type:
 - Documentary
+layout: news-page
 ---
 
 Our latest documentary project kicks into gear.
