@@ -2,37 +2,36 @@
 layout: default
 ---
 
-<section class="parent container">
-	<h1>{{ page.title }}</h1>
-	<!-- Feature Post -->
-	{% for page in site.projects limit: 1 %}
-
-		<article class="row">
-			<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured_thumbnail }}');">
-				<div class="post-feature-info">
-					<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-					{{ page.excerpt }}
-					<a href="{{ page.url }}">View project &raquo;</a>
-				</div>
-			</div>
-		</article>
-	{% endfor %}
-	<!-- Past Posts -->
-	<section class="row project-grid">
-		{% for page in site.projects reversed %}
-			<article class="projects post-module">
-				<div class="post-thumb">
-					<img src="{{ page['project_thumbnail'] }}" alt="{{asset.meta['name']}}" class="u-full-width">
-				</div>
-				<div class="overlay">
-					<div class="view-wrap">
-						<div style="display:block;">
-							<h3>{{ page.title }}</h3>
-						</div>
-						<a href="{{ page.url }}" class="view button">View project &raquo;</a>
+	<section class="parent container">
+		<h1>{{ page.title }}</h1>
+		<!-- Feature Post -->
+		{% for page in site.projects limit: 1 %}
+			<article class="row">
+				<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured_thumbnail }}');">
+					<div class="post-feature-info">
+						<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+						{{ page.excerpt }}
+						<a href="{{ page.url }}">View project &raquo;</a>
 					</div>
 				</div>
 			</article>
-	  {% endfor %}
-	</section>
-</section><!-- /content -->
+		{% endfor %}
+		<!-- Past Posts -->
+		<section class="row project-grid">
+			{% for page in site.projects reversed %}
+				<article class="projects post-module">
+					<div class="post-thumb">
+						<img src="{{ page.project_thumbnail }}" alt="{{ asset.meta['name'] }}" class="u-full-width">
+					</div>
+					<div class="overlay">
+						<div class="view-wrap">
+							<div style="display:block;">
+								<h3>{{ page.title }}</h3>
+							</div>
+							<a href="{{ page.url }}" class="view button">View project &raquo;</a>
+						</div>
+					</div>
+				</article>
+		  {% endfor %}
+		</section>
+	</section><!-- /content -->
