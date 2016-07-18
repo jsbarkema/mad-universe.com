@@ -16,6 +16,7 @@ assets:
   name: manhattans1-1024x764
 Project Type:
 - TV Series
+layout: news-page
 ---
 
 Excerpt.
