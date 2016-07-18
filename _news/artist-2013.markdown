@@ -15,6 +15,7 @@ assets:
   name: yana3-1024x604
 Project Type:
 - TV Series
+layout: news-page
 ---
 
 Excerpt.
