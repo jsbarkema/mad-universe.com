@@ -2,7 +2,7 @@
 title: See My LA
 date: 2011-03-09 18:26:00 -08:00
 published: false
-position: 1
+position: 10
 layout: project-page
 client_name: 
 featured: 

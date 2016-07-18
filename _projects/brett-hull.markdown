@@ -1,7 +1,7 @@
 ---
 title: 'Beyond the Glory: Brett Hull'
 date: 2015-12-29 15:25:00 -08:00
-position: 10
+position: 9
 video_link: <iframe src="https://player.vimeo.com/video/28389901" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 project_thumbnail: "/uploads/bretthull-1-small.jpg"
