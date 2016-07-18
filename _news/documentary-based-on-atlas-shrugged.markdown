@@ -7,6 +7,7 @@ position: 6
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - Documentary
+layout: news-page
 ---
 
 Mad Universe wraps up two year project.
