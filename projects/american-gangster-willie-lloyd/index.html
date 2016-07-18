@@ -1,0 +1,144 @@
+<!-- DOCTYPE html -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>mad-universe.com</title>
+		<link href="/styles/fonts.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/styles/styles.css" rel="stylesheet" type="text/css" media="all">
+		<style>
+			
+	    .header-projects { background-image: url(/uploads/header-willielloyd-medium.jpg); }
+			
+			
+		    @media only screen and (min-width: 1280px),
+		    only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 600px),
+		    only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 600px),
+		    only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 600px),
+		    only screen and (        min-device-pixel-ratio: 2)      and (min-width: 600px),
+		    only screen and (                min-resolution: 192dpi) and (min-width: 600px),
+		    only screen and (                min-resolution: 2dppx)  and (min-width: 600px) {
+	      .header-projects { background-image: url(/uploads/header-willielloyd@2x.jpg); }
+			
+	    }
+	  </style>
+		<script src="/js/picturefill.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="header-projects">
+			<!-- Header / Navigation -->
+			<header class="bg-no-bkg">
+				<nav class="container">
+					<div class="row">
+						<div class="logo-section four columns">
+							<a href="/"><img src="/images/mu-logo.svg" class="logo"></a>
+						</div>
+						<ul class="navbar-list">
+							
+							
+								
+							
+								
+									<li>
+										<a href="/news/" >
+											News
+										</a>
+									</li>
+								
+							
+								
+									<li>
+										<a href="/profile/" >
+											Profile
+										</a>
+									</li>
+								
+							
+								
+									<li>
+										<a href="/projects/" >
+											Projects
+										</a>
+									</li>
+								
+							
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<div class="projects-title container">
+				<h1>American Gangster: Willie Lloyd</h1>
+			</div>
+		</div>
+		<!-- Main Content -->
+		<div class="main-content">
+			<section class="row">
+				<article class="container">
+					<p><strong>BET’s groundbreaking documentary program <em>American Gangster</em> has earned a rare mix of critical praise and popular acclaim. This series of one-hour episodes reflects on the life and times of American criminals.</strong></p>
+
+<p>One of them – Willie Lloyd, was known on the west side of Chicago as the ‘undisputed king of the Unknown Vice Lords until he was cut down by rival gang members. The attack left Willie paralyzed from the neck down and barely able to speak. Interviews with social workers, attorneys, gang members, police, as well as with Willie and his wife weave a strong cautionary tale of growing up fast and hard on the brutal inner city streets.</p>
+
+				</article>
+				
+				<article class="video">
+					<div class="video-wrap">
+						<iframe src="https://player.vimeo.com/video/21184784" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</article>
+				
+			</section>
+			<section style="text-align:center; padding:2em 0; background:#00b8f7;">
+  <div class="row" style="max-width:1200px; width:40em; margin: 0 auto;">
+    <div class="twelve columns container">
+      <h1>Interested in starting a project? Let’s talk.</h1>
+    </div>
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <input class="u-full-width cta-input" name="email" placeholder="Enter your email" type="text">
+        </div>
+        <div class="six columns">
+          <input class="u-full-width cta-input" name="name" placeholder="Enter your name" type="text">
+        </div>
+      </div>
+      <textarea name="message" placeholder="Write us a message" type="text" style="width:100%;"></textarea>
+      <input class="submit" type="submit" value="Send">
+      </form>
+  </div>
+</section>
+			
+		</div>
+    <!-- Footer -->
+		<footer>
+  <div class="container">
+    <p>&copy;  Mad-Universe. LLC. All rights reserved | <a href="mailto:info@mad-universe.com">info@mad-universe.com</a></p>
+  </div>
+</footer>
+    <script src="/js/app.min.js" type="text/javascript"></script>
+<script>
+   jQuery(function($){
+
+   // Cycle plugin
+   $('.slides').cycle({
+      fx:     'none',
+      speed:   1,
+      timeout: 70
+   }).cycle("pause");
+
+  // Pause & play on hover of homepage images //
+  $('.slideshow-block').hover(function(){
+    $(this).find('.slides').addClass('active').cycle('resume');
+  }, function(){
+
+  $(this).find('.slides').removeClass('active').cycle('pause');
+    });
+});
+</script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".main-content").fitVids();
+  });
+</script>
+	</body>
+</html>

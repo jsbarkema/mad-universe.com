@@ -1,0 +1,171 @@
+<!-- DOCTYPE html -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>mad-universe.com</title>
+		<link href="/styles/fonts.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/styles/styles.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+	<body>
+		<!-- Header / Navigation -->
+		<header class="bg-">
+			<nav class="container">
+				<div class="row">
+					<div class="logo-section">
+						<a href="/"><img src="/images/mu-logo.svg" class="logo"></a>
+					</div>
+					<ul class="navbar-list">
+						
+						
+							
+						
+							
+								<li>
+									<a href="/news/" >
+										News
+									</a>
+								</li>
+							
+						
+							
+								<li>
+									<a href="/profile/" class="selected">
+										Profile
+									</a>
+								</li>
+							
+						
+							
+								<li>
+									<a href="/projects/" >
+										Projects
+									</a>
+								</li>
+							
+						
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- Main Content -->
+		<div class="main-content">
+		<div class="profile-body container">
+  <h1>It’s good to be a little mad.</h1>
+  <p>Chris Mortensen an award winning writer, producer and director has in the last fifteen years produced more than 100 hours of documentary and reality programming. His programs have appeared on History Channel, A&amp;E, Discovery, TLC, BET, VH-1, TV-One, Lifetime Network, Fox Sports, ESPN, Travel Channel, Versus. GSN, TNN, Spike, et al.</p>
+
+<p>Beyond his documentary career, Mortensen has produced and/or directed television commercial campaigns for national and regional advertisers like: Avis, Valvoline, Mastercard, Ace Hardware, United Airlines, et al. <em>(Clio &amp; Addy awards)</em> as well as corporate identity and sales films for such clients as ConocoPhillips, National Gypsum, Century 21 and United Airlines.</p>
+
+</div>
+<div class="profile-image row">
+  <img src="/uploads/bio_pic.jpg" class="u-full-width">
+</div>
+<div class="logo-grid">
+   <div class="container">
+      <h2>Clients</h2>
+   </div>
+   <div class="container">
+      <ul class="row">
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-ae.png" alt="logo-ae">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-lifetime.png" alt="logo-lifetime">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-bet.png" alt="logo-bet">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-bio.png" alt="logo-bio">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-discovery.png" alt="logo-discovery">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-espn.png" alt="logo-espn">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-fox-sports.png" alt="logo-fox-sports">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-gsn.png" alt="logo-gsn">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-history.png" alt="logo-history">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-spike.png" alt="logo-spike">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-tlc.png" alt="logo-tlc">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-tnn.png" alt="logo-tnn">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-travel.png" alt="logo-travel">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-true.png" alt="logo-true">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-tvone.png" alt="logo-tvone">
+        </li>
+        
+        <li class="logo-module">
+          <img src="/uploads/logo-vh1.png" alt="logo-vh1">
+        </li>
+        
+      </ul>
+   </div>
+</div>
+		</div>
+    <!-- Footer -->
+    <footer>
+  <div class="container">
+    <p>&copy;  Mad-Universe. LLC. All rights reserved | <a href="mailto:info@mad-universe.com">info@mad-universe.com</a></p>
+  </div>
+</footer>
+    <script src="/js/app.min.js" type="text/javascript"></script>
+<script>
+   jQuery(function($){
+
+   // Cycle plugin
+   $('.slides').cycle({
+      fx:     'none',
+      speed:   1,
+      timeout: 70
+   }).cycle("pause");
+
+  // Pause & play on hover of homepage images //
+  $('.slideshow-block').hover(function(){
+    $(this).find('.slides').addClass('active').cycle('resume');
+  }, function(){
+
+  $(this).find('.slides').removeClass('active').cycle('pause');
+    });
+});
+</script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".main-content").fitVids();
+  });
+</script>
+	</body>
+</html>

@@ -1,0 +1,150 @@
+<!-- DOCTYPE html -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>mad-universe.com</title>
+		<link href="/styles/fonts.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/styles/styles.css" rel="stylesheet" type="text/css" media="all">
+		<style>
+			
+	    .header-projects { background-image: url(/uploads/header-dennis-connor-medium.jpg); }
+			
+			
+		    @media only screen and (min-width: 1280px),
+		    only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 600px),
+		    only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 600px),
+		    only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 600px),
+		    only screen and (        min-device-pixel-ratio: 2)      and (min-width: 600px),
+		    only screen and (                min-resolution: 192dpi) and (min-width: 600px),
+		    only screen and (                min-resolution: 2dppx)  and (min-width: 600px) {
+	      .header-projects { background-image: url(/uploads/header-dennis-connor@2x.jpg); }
+			
+	    }
+	  </style>
+		<script src="/js/picturefill.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="header-projects">
+			<!-- Header / Navigation -->
+			<header class="bg-no-bkg">
+				<nav class="container">
+					<div class="row">
+						<div class="logo-section four columns">
+							<a href="/"><img src="/images/mu-logo.svg" class="logo"></a>
+						</div>
+						<ul class="navbar-list">
+							
+							
+								
+							
+								
+									<li>
+										<a href="/news/" >
+											News
+										</a>
+									</li>
+								
+							
+								
+									<li>
+										<a href="/profile/" >
+											Profile
+										</a>
+									</li>
+								
+							
+								
+									<li>
+										<a href="/projects/" >
+											Projects
+										</a>
+									</li>
+								
+							
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<div class="projects-title container">
+				<h1>Fearless: Dennis Connor</h1>
+			</div>
+		</div>
+		<!-- Main Content -->
+		<div class="main-content">
+			<section class="row">
+				<article class="container">
+					<p>For 132 years the fabled world-racing trophy America’s Cup was held by the New York Yacht Club. No foreign challenger had ever come close to winning it. After all that time, the prospect of parting with the cup was unthinkable. In fact it was commonly held in racing lore that should the fabled trophy ever be lost in competition and thereby removed from its cherished spot, it could only be replaced by the losing skipper’s head.</p>
+
+<p>As the 1983 America’s Cup series approached, American racing skipper Dennis Conner was acknowledged as the best sailor in the world. He’d already twice defended the cup successfully. But the Australians arrived in Newport R.I. for the challenger trials with a new winged-keel boat, Australia II, that not only out-classed all the other challengers but then did the unthinkable – beat Conner’s Liberty in a dramatic 7-race showdown.</p>
+
+<p>America’s Cup was lost. For the first time in 132 years the cup now resided somewhere other than the New York Yacht Club. And Dennis Conner was to blame.</p>
+
+<p>In the course of one series, he had gone from champion and defender of America’s honor to object of pity and scorn.</p>
+
+<p>And although Conner may have been despondent enough at that point to gladly part with his head – he knew there was only one way to vindicate himself, his crew and his country. He had to win the cup back.</p>
+
+				</article>
+				
+				<article class="video">
+					<div class="video-wrap">
+						<iframe src="https://player.vimeo.com/video/21238910" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</article>
+				
+			</section>
+			<section style="text-align:center; padding:2em 0; background:#00b8f7;">
+  <div class="row" style="max-width:1200px; width:40em; margin: 0 auto;">
+    <div class="twelve columns container">
+      <h1>Interested in starting a project? Let’s talk.</h1>
+    </div>
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <input class="u-full-width cta-input" name="email" placeholder="Enter your email" type="text">
+        </div>
+        <div class="six columns">
+          <input class="u-full-width cta-input" name="name" placeholder="Enter your name" type="text">
+        </div>
+      </div>
+      <textarea name="message" placeholder="Write us a message" type="text" style="width:100%;"></textarea>
+      <input class="submit" type="submit" value="Send">
+      </form>
+  </div>
+</section>
+			
+		</div>
+    <!-- Footer -->
+		<footer>
+  <div class="container">
+    <p>&copy;  Mad-Universe. LLC. All rights reserved | <a href="mailto:info@mad-universe.com">info@mad-universe.com</a></p>
+  </div>
+</footer>
+    <script src="/js/app.min.js" type="text/javascript"></script>
+<script>
+   jQuery(function($){
+
+   // Cycle plugin
+   $('.slides').cycle({
+      fx:     'none',
+      speed:   1,
+      timeout: 70
+   }).cycle("pause");
+
+  // Pause & play on hover of homepage images //
+  $('.slideshow-block').hover(function(){
+    $(this).find('.slides').addClass('active').cycle('resume');
+  }, function(){
+
+  $(this).find('.slides').removeClass('active').cycle('pause');
+    });
+});
+</script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".main-content").fitVids();
+  });
+</script>
+	</body>
+</html>
