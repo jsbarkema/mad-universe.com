@@ -1,9 +1,8 @@
 ---
-layout: project-page
 title: Artist 2013
 date: 2016-01-06 13:07:00 -08:00
 client_name: Artist 2013
-featured:
+featured: 
 video_link: "<iframe src='https://player.vimeo.com/video/69148899' frameborder='0'
   webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>"
 color: no-bkg
@@ -25,7 +24,8 @@ images:
 Project Type:
 - TV Series
 Year:
-- '2013'
+- 2013
+layout: project-page
 ---
 
 **Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.**

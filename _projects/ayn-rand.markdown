@@ -1,5 +1,4 @@
 ---
-layout: project-page
 title: Ayn Rand and the Prophecy of Atlas Shrugged
 date: 2016-01-05 00:15:00 -08:00
 color: no-bkg
@@ -8,7 +7,7 @@ video_link: "<style>.embed-container { position: relative; padding-bottom: 56.25
   object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%;
   height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/pMnOOV5WtVs'
   frameborder='0' allowfullscreen></iframe></div>"
-thumbnail_featured:
+thumbnail_featured: 
 next_project_banner: "/uploads/header-ayn-rand-medium.jpg"
 project_thumbnail: "/uploads/header-ayn-rand-small.jpg"
 recent_thumbnail: "/uploads/header-ayn-rand-medium.jpg"
@@ -26,6 +25,7 @@ images:
 - path: "/uploads/header-ayn-rand-small.jpg"
   name: header-ayn-rand-small
   type: small
+layout: project-page
 ---
 
 **_Ayn Rand and the Prophecy of Atlas Shrugged_ is a feature length documentary film that examines the resurging interest in Ayn Rand’s epic and controversial 1957 novel and the validity of its dire prediction for America.**

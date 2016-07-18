@@ -1,5 +1,4 @@
 ---
-layout: project-page
 title: 'Fearless: Dennis Connor'
 date: 2011-03-18 18:30:00 -07:00
 client_name:
@@ -12,14 +11,15 @@ project_thumbnail: "/uploads/dennis-connor1-small.jpg"
 next_project_banner: "/uploads/header-dennis-connor-medium.jpg"
 recent_thumbnail: "/uploads/header-dennis-connor-medium.jpg"
 images:
-- path: "/uploads/dennis-connor1-small.jpg"
-  name: dennis-connor1-small
-- path: "/uploads/header-dennis-connor-medium.jpg"
-  name: header-dennis-connor-medium
-  type: medium
 - path: "/uploads/header-dennis-connor@2x.jpg"
   name: header-dennis-connor@2x
   type: large
+- path: "/uploads/header-dennis-connor-medium.jpg"
+  name: header-dennis-connor-medium
+  type: medium
+- path: "/uploads/dennis-connor1-small.jpg"
+  name: dennis-connor1-small
+layout: project-page
 ---
 
 For 132 years the fabled world-racing trophy America’s Cup was held by the New York Yacht Club. No foreign challenger had ever come close to winning it. After all that time, the prospect of parting with the cup was unthinkable. In fact it was commonly held in racing lore that should the fabled trophy ever be lost in competition and thereby removed from its cherished spot, it could only be replaced by the losing skipper’s head.

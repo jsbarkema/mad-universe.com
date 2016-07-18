@@ -1,14 +1,13 @@
 ---
-layout: project-page
 title: The Moneychangers
-date: 2016-01-06 23:49:00 -08:00
+date: 2016-07-17 23:49:00 -07:00
 tags:
 - featured
 client_name:
 video_link: <iframe src="https://player.vimeo.com/video/172443653" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-featured: 'true'
+featured: true
 featured_thumbnail: "/uploads/header-moneychangers@2x.jpg"
 next_project_banner: "/uploads/header-moneychangers-medium.jpg"
 project_thumbnail: "/uploads/header-moneychangers-small.jpg"
@@ -26,7 +25,8 @@ images:
 Project Type:
 - Feature Film
 Year:
-- '2015'
+- 2015
+layout: project-page
 ---
 
 Mad Universe’s independent feature film documentary: _The Moneychangers_ has just been completed.
