@@ -37,6 +37,7 @@ images:
   name: logo-tvone
 - path: "/uploads/logo-vh1.png"
   name: logo-vh1
+color: "#601717"
 layout: profile
 ---
 
