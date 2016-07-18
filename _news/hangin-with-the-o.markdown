@@ -7,6 +7,7 @@ position: 5
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - TV Series
+layout: news-page
 ---
 
 With Walt Williams and Eddie Levert – original lead singers of the legendary O’Jays (Love Train, For the Love of Money, Backstabbers).
