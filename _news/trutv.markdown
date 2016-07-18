@@ -8,6 +8,7 @@ position: 4
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - TV Series
+layout: news-page
 ---
 
 On location above San Francisco while shooting the pilot episode for Conspiracy Theory with Jesse Ventura for TruTV.
