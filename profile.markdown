@@ -4,6 +4,7 @@ date: 2015-12-24 18:12:00 -08:00
 navigation_weight: 2
 headline: It’s good to be a little mad.
 bio_pic: "/uploads/logo-ae.png"
+color: "#000910"
 images:
 - path: "/uploads/logo-ae.png"
   name: logo-ae
@@ -37,7 +38,6 @@ images:
   name: logo-tvone
 - path: "/uploads/logo-vh1.png"
   name: logo-vh1
-color: "#601717"
 layout: profile
 ---
 
