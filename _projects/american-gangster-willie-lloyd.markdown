@@ -1,6 +1,7 @@
 ---
 title: 'American Gangster: Willie Lloyd'
 date: 2011-03-09 18:11:00 -08:00
+position: 9
 client_name: 
 featured: 
 video_link: <iframe src="https://player.vimeo.com/video/21184784" frameborder="0"
