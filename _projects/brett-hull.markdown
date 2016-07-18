@@ -7,7 +7,7 @@ video_link: <iframe src="https://player.vimeo.com/video/28389901" width="640" he
 project_thumbnail: "/uploads/bretthull-1-small.jpg"
 next_project_banner: "/uploads/header-bretthull-medium.jpg"
 color: no-bkg
-assets:
+images:
 - path: "/uploads/bretthull-1-small.jpg"
   name: bretthull-1-small
   type: small

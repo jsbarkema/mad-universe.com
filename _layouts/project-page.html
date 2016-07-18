@@ -33,25 +33,41 @@
 						<div class="logo-section four columns">
 							<a href="/"><img src="/images/mu-logo.svg" class="logo"></a>
 						</div>
-						<ul class="navbar-list eight columns">
-							{% for page in site.pages %}
-							{% if page.meta.main_nav == 'true' %}
-							<li>
-								<a href="{{ page.url }}"{% if page.slug == 'projects' %} class="selected"{% endif %}>{{ page.title }}</a>
-							</li>
-							{% endif %}
+						<ul class="navbar-list">
+							{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+							{% for p in navigation_pages %}
+								{% if p.navigation_weight %}
+									<li>
+										<a href="{{ p.url }}" {% if p.url == page.url %}class="selected"{% endif %}>
+											{{ p.title }}
+										</a>
+									</li>
+								{% endif %}
 							{% endfor %}
 						</ul>
 					</div>
 				</nav>
 			</header>
 			<div class="projects-title container">
-				<h1>{{ title }}</h1>
+				<h1>{{ page.title }}</h1>
 			</div>
 		</div>
 		<!-- Main Content -->
 		<div class="main-content">
-		{% include projects-detail.html %}
+			<section class="row">
+				<article class="container">
+					{{ content }}
+				</article>
+				{% if page.video_link %}
+				<article class="video">
+					<div class="video-wrap">
+						{{ page.video_link }}
+					</div>
+				</article>
+				{% endif %}
+			</section>
+			{% include call-to-action.html %}
+			{% include next-project.html %}
 		</div>
     <!-- Footer -->
 		{% include footer.html %}

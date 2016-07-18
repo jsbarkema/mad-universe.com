@@ -8,7 +8,7 @@ next_project_banner: "/uploads/header-ditka-medium.jpg"
 project_thumbnail: "/uploads/ditka1-small.jpg"
 recent_thumbnail: "/uploads/header-ditka-medium.jpg"
 color: no-bkg
-assets:
+images:
 - path: "/uploads/header-ditka-medium.jpg"
   name: header-ditka-medium
   type: medium

@@ -1,7 +1,8 @@
 ---
 title: Profile
 date: 2015-12-24 18:12:00 -08:00
-main_nav: true
+navigation_weight: 2
+layout: profile
 logo_ae: "/uploads/logo-ae.png"
 logo_bio: "/uploads/logo-bio.png"
 logo_bet: "/uploads/logo-bet.png"
@@ -19,7 +20,7 @@ logo_tru: "/uploads/logo-true.png"
 logo_vh1: "/uploads/logo-vh1.png"
 logo_tvone: "/uploads/logo-tvone.png"
 headline: It’s good to be a little mad.
-assets:
+images:
 - path: "/uploads/bio_pic.jpg"
   name: bio-pic
 - path: "/uploads/logo-ae.png"
@@ -54,9 +55,8 @@ assets:
   name: logo-tvone
 - path: "/uploads/logo-vh1.png"
   name: logo-vh1
-layout: default
 ---
 
 Chris Mortensen an award winning writer, producer and director has in the last fifteen years produced more than 100 hours of documentary and reality programming. His programs have appeared on History Channel, A&E, Discovery, TLC, BET, VH-1, TV-One, Lifetime Network, Fox Sports, ESPN, Travel Channel, Versus. GSN, TNN, Spike, et al.
- 
+
 Beyond his documentary career, Mortensen has produced and/or directed television commercial campaigns for national and regional advertisers like: Avis, Valvoline, Mastercard, Ace Hardware, United Airlines, et al. _(Clio & Addy awards)_ as well as corporate identity and sales films for such clients as ConocoPhillips, National Gypsum, Century 21 and United Airlines.

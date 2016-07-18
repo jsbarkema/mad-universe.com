@@ -12,7 +12,7 @@ thumbnail_featured:
 next_project_banner: "/uploads/header-ayn-rand-medium.jpg"
 project_thumbnail: "/uploads/header-ayn-rand-small.jpg"
 recent_thumbnail: "/uploads/header-ayn-rand-medium.jpg"
-assets:
+images:
 - path: "/uploads/rand-fb-poster.jpg"
   name: movie-poster
   caption: Documentary movie poster.

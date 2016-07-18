@@ -4,7 +4,7 @@ title: The Moneychangers
 date: 2016-01-06 23:49:00 -08:00
 tags:
 - featured
-client_name: 
+client_name:
 video_link: <iframe src="https://player.vimeo.com/video/172443653" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
@@ -13,7 +13,7 @@ featured_thumbnail: "/uploads/header-moneychangers@2x.jpg"
 next_project_banner: "/uploads/header-moneychangers-medium.jpg"
 project_thumbnail: "/uploads/header-moneychangers-small.jpg"
 recent_thumbnail: "/uploads/header-moneychangers-medium.jpg"
-assets:
+images:
 - path: "/uploads/header-moneychangers@2x.jpg"
   name: header-moneychangers@2x
   type: large

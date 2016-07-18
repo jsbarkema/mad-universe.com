@@ -11,7 +11,7 @@ thumbnail_featured:
 next_project_banner: "/uploads/childrens-hospital-medium.jpg"
 project_thumbnail: "/uploads/childrens-hospital-small.jpg"
 recent_thumbnail: "/uploads/childrens-hospital-medium.jpg"
-assets:
+images:
 - path: "/uploads/childrens-hospital@2x.jpg"
   name: childrens-hospital@2x
   type: large

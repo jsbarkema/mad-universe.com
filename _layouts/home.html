@@ -7,10 +7,10 @@
 		<link href="/styles/fonts.css" rel="stylesheet" type="text/css" media="all">
 		<link href="/styles/styles.css" rel="stylesheet" type="text/css" media="all">
 		<style>
-			{% for asset in assets %}{% if asset.meta.type == 'medium' %}
-	    .header-home { background-image: url({{asset.url}}); }
+			{% for image in page.images %}{% if image.type == 'medium' %}
+	    .header-home { background-image: url({{image.path}}); }
 			{% endif %}{% endfor %}
-			{% for asset in assets %}{% if asset.meta.type == 'large' %}
+			{% for image in page.images %}{% if image.type == 'large' %}
 		    @media only screen and (min-width: 1280px),
 		    only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 600px),
 		    only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 600px),
@@ -18,7 +18,7 @@
 		    only screen and (        min-device-pixel-ratio: 2)      and (min-width: 600px),
 		    only screen and (                min-resolution: 192dpi) and (min-width: 600px),
 		    only screen and (                min-resolution: 2dppx)  and (min-width: 600px) {
-	      .header-home { background-image: url({{asset.url}}); }
+	      .header-home { background-image: url({{image.path}}); }
 			{% endif %}{% endfor %}
 	    }
 	  </style>
@@ -35,12 +35,15 @@
 							<a href="/"><img src="/images/mu-logo.svg" class="logo"></a>
 						</div>
 						<ul class="navbar-list">
-							{% for page in site.pages %}
-							{% if page.meta.main_nav == 'true' %}
-							<li>
-								<a href="{{ page.url }}"{% if slug == page.slug %} class="selected"{% endif %}>{{ page.title }}</a>
-							</li>
-							{% endif %}
+							{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+							{% for p in navigation_pages %}
+								{% if p.navigation_weight %}
+									<li>
+										<a href="{{ p.url }}" {% if p.url == page.url %}class="selected"{% endif %}>
+											{{ p.title }}
+										</a>
+									</li>
+								{% endif %}
 							{% endfor %}
 						</ul>
 					</div>

@@ -1,11 +1,13 @@
-{% capture content %}
+---
+layout: default
+---
 <div class="profile-body container">
-  <h1>{{ meta['headline'] }}</h1>
-  {{ body }}
+  <h1>{{ page['headline'] }}</h1>
+  {{ content }}
 </div>
 <div class="profile-image row">
-  {% for asset in assets %}{% if asset.meta.name == 'bio-pic' %}
-    <img src="{{ asset.url }}" class="u-full-width">
+  {% for image in page.images %}{% if image.name == 'bio-pic' %}
+    <img src="{{ image.path }}" class="u-full-width">
   {% endif %}{% endfor %}
 </div>
 <div class="logo-grid">
@@ -15,56 +17,53 @@
    <div class="container">
       <ul class="row">
          <li class="logo-module">
-            <img src="{{meta['logo_ae']}}" alt="{{asset.meta['name']}}">
+            <img src="{{ page.logo_ae }}" alt="{{ page.images.name }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_bio']}}" alt="{{meta['logo-ae']}}">
+            <img src="{{ page.logo_bio }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_bet']}}">
+            <img src="{{ page.logo_bet }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_discovery']}}">
+            <img src="{{ page.logo_discovery }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_espn']}}">
+            <img src="{{ page.logo_espn }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_gsn']}}">
+            <img src="{{ page.logo_gsn }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_fox-sports']}}">
+            <img src="{{ page.logo_fox-sports }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_history']}}">
+            <img src="{{ page.logo_history }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_lifetime']}}">
+            <img src="{{ page.logo_lifetime }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_spike']}}">
+            <img src="{{ page.logo_spike }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_tlc']}}">
+            <img src="{{ page.images.logo_tlc }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_tnn']}}">
+            <img src="{{ page.logo_tnn }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_travel']}}">
+            <img src="{{ page.logo_travel }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_tru']}}">
+            <img src="{{ page.logo_tru }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_tvone']}}">
+            <img src="{{ page.logo_tvone }}">
          </li>
          <li class="logo-module">
-            <img src="{{meta['logo_vh1']}}">
+            <img src="{{ page.logo_vh1 }}">
          </li>
       </ul>
    </div>
 </div>
-{% endcapture %}
-
-{% include 'layouts/default' %}

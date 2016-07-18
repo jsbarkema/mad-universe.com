@@ -3,7 +3,7 @@ layout: home
 title: Index
 date: 2015-11-25 22:56:00 -08:00
 color: no-bkg
-assets:
+images:
 - path: "/uploads/0.png"
   name: 0
 - path: "/uploads/1.png"
