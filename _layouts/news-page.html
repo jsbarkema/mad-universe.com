@@ -35,24 +35,24 @@
 			<section>
 			  <article class="row">
 			    <div class="header-news container">
-			      <div {% for asset in assets %}{% if asset.meta.header_type == 'news' %} class="header-image" style="background-image: url('{{asset.url}}');"{% endif %}{% endfor %}>
+			      <div {% for image in page.images %}{% if header_type == 'news' %} class="header-image" style="background-image: url('{{ image.path }}');"{% endif %}{% endfor %}>
 			      </div>
-			      <h3>{{ current.date | date: '%B %d, %Y' }}</h3>
-			      <h1>{{ title }}</h1>
+			      <h3>{{ page.date | date: '%B %d, %Y' }}</h3>
+			      <h1>{{ page.title }}</h1>
 			    </div>
 			  </article>
 				<article class="row container">
-					{{ body }}
+					{{ content }}
 				</article>
 			  <article class="news-hero-images">
-			    {% for asset in assets %}{% if asset.meta['image_type'] == 'news' %}
+			    {% for image in page.images %}{% if image_type == 'news' %}
 			      <div class="container">
-			        <img src="{{ asset.url }}">
+			        <img src="{{ image.path }}">
 			      </div>
 			    {% endif %}{% endfor %}
 			  </article>
 			  <div class="container">
-			    <p class="content-footer container"><a href="{{ parent.url }}">&larr; Back to {{ parent.title }}</a></p>
+			    <p class="content-footer container"><a href="{{ /:collection }}">&larr; Back to {{ /:collection }}</a></p>
 			  </div>
 			</section>
 		</div>

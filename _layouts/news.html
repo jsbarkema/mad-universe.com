@@ -5,8 +5,8 @@ layout: default
   <section class="parent container">
     <h1>{{ page.title }}</h1>
     <!-- Feature Story -->
-    {% for page in site.news limit:1 %}
-    {% if page.featured == 'true' %}
+    {% assign featured_news = (site.news | where: 'featured', 'true') %}
+		{% for page in featured_news limit: 1 %}
       <article class="row">
       	<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured-thumbnail }}');">
       		<div class="post-feature-info">
@@ -16,10 +16,10 @@ layout: default
       		</div>
       	</div>
       </article>
-    {% endif %}
     {% endfor %}
     <div class="row">
-      {% for page in site.news reversed %}
+      {% assign news = (site.news | where: 'featured', '') %}
+      {% for page in news reversed %}
         <article class="news post-module four columns">
           <a href="{{ page.url }}" class="u-full-width">
             <div class="post-thumb" style="background-image: url('{{ page.thumbnail }}');"></div>
