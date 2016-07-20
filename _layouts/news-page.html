@@ -34,9 +34,11 @@
 		<div class="main-content">
 			<section>
 			  <article class="row">
-			    <div class="header-news container">
-			      <div {% for image in page.images %}{% if header_type == 'news' %} class="header-image" style="background-image: url('{{ image.path }}');"{% endif %}{% endfor %}>
+			    <div class="header-news container" style="height: 10em;">
+						{% for image in page.images %}{% if image.header-type == 'news' %}
+			      <div class="header-image" style="background-image: url({{image.path}});">
 			      </div>
+						{% endfor %}
 			      <h3>{{ page.date | date: '%B %d, %Y' }}</h3>
 			      <h1>{{ page.title }}</h1>
 			    </div>
@@ -45,7 +47,7 @@
 					{{ content }}
 				</article>
 			  <article class="news-hero-images">
-			    {% for image in page.images %}{% if image_type == 'news' %}
+			    {% for image in page.images %}{% if image.header-type == 'news' %}
 			      <div class="container">
 			        <img src="{{ image.path }}">
 			      </div>
