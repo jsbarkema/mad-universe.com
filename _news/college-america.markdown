@@ -5,6 +5,7 @@ tags:
 - College America
 position: 2
 thumbnail: "/uploads/college1.jpg"
+color: dark_blue
 assets:
 - path: "/uploads/college1.jpg"
   name: college1
