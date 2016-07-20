@@ -13,7 +13,7 @@ featured-thumbnail: "/uploads/emmy-crop-1000.jpg"
 images:
 - path: "/uploads/emmy-crop-1000.jpg"
   name: emmy-crop-1000
-  header_type: news
+  header-type: news
 - path: "/uploads/emmy-crop-800.jpg"
   name: emmy-crop-800
 - path: "/uploads/emmy-crop-400.jpg"
