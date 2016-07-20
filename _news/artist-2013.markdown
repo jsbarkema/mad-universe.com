@@ -5,7 +5,7 @@ tags:
 - Artist 2013
 position: 8
 thumbnail: "/uploads/yana4.jpg"
-assets:
+images:
 - path: "/uploads/yana4.jpg"
   name: yana4
   header-type: news
