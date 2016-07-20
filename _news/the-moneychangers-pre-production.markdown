@@ -4,7 +4,7 @@ date: 2014-04-17 23:49:00 -07:00
 position: 1
 color: dark_blue
 thumbnail: "/uploads/moneychangers1.jpg"
-assets:
+images:
 - path: "/uploads/moneychangers1.jpg"
   name: moneychangers1
   header-type: news
