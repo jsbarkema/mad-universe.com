@@ -7,7 +7,7 @@ tags:
 - Imagine
 position: 3
 thumbnail: "/uploads/child-hospital-400.jpg"
-assets:
+images:
 - path: "/uploads/hospital2-1024x570.jpg"
   name: hospital2-1024x570
 - path: "/uploads/hospital3-1024x605.jpg"
