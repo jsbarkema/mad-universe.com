@@ -6,7 +6,7 @@ tags:
 position: 2
 thumbnail: "/uploads/college1.jpg"
 color: dark_blue
-assets:
+images:
 - path: "/uploads/college1.jpg"
   name: college1
   header-type: news
