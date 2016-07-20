@@ -5,7 +5,7 @@ tags:
 - Ayn Rand
 position: 7
 thumbnail: "/uploads/thumb-temp.jpg"
-assets:
+images:
 - path: "/uploads/rand-news-1.jpg"
   name: rand-news-1
   image_type: news
