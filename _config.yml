@@ -27,14 +27,3 @@ dark_blue: "#000910"
 light_yellow: "#fafae5"
 dark_grey: "#333333"
 light_green: "#e6f9ee"
-markdown: redcarpet
-redcarpet:
-  extensions:
-  - autolink
-  - fenced_code_blocks
-  - lax_spacing
-  - strikethrough
-  - superscript
-  - tables
-  - footnotes
-  - highlight
