@@ -8,8 +8,8 @@ tags:
 position: 0
 thumbnail: "/uploads/emmy-crop-400.jpg"
 featured: true
-color: dark_blue
 featured-thumbnail: "/uploads/emmy-crop-1000.jpg"
+color: dark_blue
 images:
 - path: "/uploads/emmy-crop-1000.jpg"
   name: emmy-crop-1000
