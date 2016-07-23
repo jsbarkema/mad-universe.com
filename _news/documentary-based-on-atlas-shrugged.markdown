@@ -5,9 +5,9 @@ tags:
 - Ayn Rand
 position: 6
 thumbnail: "/uploads/thumb-temp.jpg"
+color: dark_blue
 Project Type:
 - Documentary
-color: dark_blue
 layout: news-page
 ---
 
