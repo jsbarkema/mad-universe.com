@@ -5,9 +5,9 @@ tags:
 - O’Jays
 position: 5
 thumbnail: "/uploads/thumb-temp.jpg"
+color: dark_blue
 Project Type:
 - TV Series
-color: dark_blue
 layout: news-page
 ---
 
