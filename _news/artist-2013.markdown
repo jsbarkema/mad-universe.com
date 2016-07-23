@@ -15,6 +15,7 @@ images:
   name: yana3-1024x604
 Project Type:
 - TV Series
+color: dark_blue
 layout: news-page
 ---
 
