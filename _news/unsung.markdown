@@ -7,6 +7,8 @@ tags:
 position: 9
 thumbnail: "/uploads/manhattans2.jpg"
 color: dark_blue
+Project Type:
+- TV Series
 images:
 - path: "/uploads/manhattans2.jpg"
   name: manhattans2
@@ -15,8 +17,6 @@ images:
   name: manhattans3-1024x574
 - path: "/uploads/manhattans1-1024x764.jpg"
   name: manhattans1-1024x764
-Project Type:
-- TV Series
 layout: news-page
 ---
 
