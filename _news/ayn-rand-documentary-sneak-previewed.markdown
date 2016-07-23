@@ -5,6 +5,9 @@ tags:
 - Ayn Rand
 position: 7
 thumbnail: "/uploads/thumb-temp.jpg"
+color: dark_blue
+Project Type:
+- Documentary
 images:
 - path: "/uploads/rand-news-1.jpg"
   name: rand-news-1
@@ -14,8 +17,6 @@ images:
 - path: "/uploads/news-rand-header.jpg"
   name: news-rand-header
   header_type: news
-Project Type:
-- Documentary
 layout: news-page
 ---
 
