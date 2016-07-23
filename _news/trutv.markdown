@@ -6,6 +6,7 @@ tags:
 - TruTV
 position: 4
 thumbnail: "/uploads/thumb-temp.jpg"
+color: dark_blue
 Project Type:
 - TV Series
 layout: news-page
