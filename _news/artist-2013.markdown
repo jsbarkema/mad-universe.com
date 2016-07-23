@@ -5,6 +5,9 @@ tags:
 - Artist 2013
 position: 8
 thumbnail: "/uploads/yana4.jpg"
+color: dark_blue
+Project Type:
+- TV Series
 images:
 - path: "/uploads/yana4.jpg"
   name: yana4
@@ -13,9 +16,6 @@ images:
   name: yana11-1024x570
 - path: "/uploads/yana3-1024x604.jpg"
   name: yana3-1024x604
-Project Type:
-- TV Series
-color: dark_blue
 layout: news-page
 ---
 
