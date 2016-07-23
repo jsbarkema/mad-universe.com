@@ -7,6 +7,7 @@ position: 5
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - TV Series
+color: dark_blue
 layout: news-page
 ---
 
