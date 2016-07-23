@@ -7,6 +7,7 @@ position: 6
 thumbnail: "/uploads/thumb-temp.jpg"
 Project Type:
 - Documentary
+color: dark_blue
 layout: news-page
 ---
 
