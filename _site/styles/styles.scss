@@ -172,6 +172,20 @@ input[type="submit"] {
   }
 }
 
+.call-to-action {
+  text-align: center;
+  padding: 2em 0;
+  background: $mad-green;
+
+  form {
+    max-width: 1200px;
+    width: 40em;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+}
+
+
 //===================================================
 //   Global
 //===================================================

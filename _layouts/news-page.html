@@ -33,19 +33,21 @@
 		<!-- Main Content -->
 		<div class="main-content">
 			<section>
-				
-				<h3>{{ page.date | date: '%B %d, %Y' }}</h3>
-				<h1>{{ page.title }}</h1>
+				<article class="header-news container">
+					{% for image in page.images %}{% if image.header-type == 'news' %}
+						<div class="header-image" style="background-image: url({{ image.path }});">
+						</div>
+			    {% endif %}{% endfor %}
+			      <img src="{{ image.path }}">
+
+					<h3>{{ page.date | date: '%B %d, %Y' }}</h3>
+					<h1>{{ page.title }}</h1>
+			  </article>
 				<article class="row container">
 					{{ content }}
 				</article>
-			  <article class="header-news container">
-			    {% for image in page.images %}{% if image.header-type == 'news' %}
-			      <img src="{{ image.path }}">
-			    {% endif %}{% endfor %}
-			  </article>
 			  <div class="container">
-			    <p class="content-footer container"><a href="{{ /:collection }}">&larr; Back to {{ /:collection }}</a></p>
+			    <p class="content-footer container"><a href="/news">&larr; Back to news</a></p>
 			  </div>
 			</section>
 		</div>
