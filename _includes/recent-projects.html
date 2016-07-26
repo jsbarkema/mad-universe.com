@@ -1,7 +1,8 @@
 <div class="container">
   <section class="recent-section row project-grid">
     <h2>Recent Projects</h2>
-    {% for page in site.projects limit:2 % sort: 'date' %}
+    {% assign sorted = (site.projects | sort: 'date' | reverse) %}
+    {% for page in sorted | post limit:2 %}
       <article class="projects post-module six columns collapse">
         <div class="post-thumb">
           <img src="{{ page.recent_thumbnail }}" class="u-full-width">
@@ -15,7 +16,6 @@
           </div>
         </div>
       </article>
-
     {% endfor %}
   </section>
 </div>
