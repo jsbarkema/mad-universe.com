@@ -979,7 +979,8 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
-  font-family: UnitRoundedWeb, Helvetica, sans-serif; }
+  font-family: UnitRoundedWeb, Helvetica, sans-serif;
+  position: relative; }
 
 a {
   text-decoration: none;
