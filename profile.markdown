@@ -41,6 +41,6 @@ images:
 layout: profile
 ---
 
-Chris Mortensen an award winning writer, producer and director has in the last fifteen years produced more than 100 hours of documentary and reality programming. His programs have appeared on History Channel, A&E, Discovery, TLC, BET, VH-1, TV-One, Lifetime Network, Fox Sports, ESPN, Travel Channel, Versus. GSN, TNN, Spike, et al.
+Chris Mortensen is an Emmy Award winning television writer/producer and documentary filmmaker whose biographies and historical programs have appeared on History Channel, A&E, Discovery, TLC, BET, VH-1, TV-One, Lifetime Network, Fox Sports, ESPN, Travel Channel, et al.
 
-Beyond his documentary career, Mortensen has produced and/or directed television commercial campaigns for national and regional advertisers like: Avis, Valvoline, Mastercard, Ace Hardware, United Airlines, et al. _(Clio & Addy awards)_ as well as corporate identity and sales films for such clients as ConocoPhillips, National Gypsum, Century 21 and United Airlines.
+Most recently, Mortensen received a Los Angeles area Emmy© award in 2014 for a pair of one-hour specials he wrote, produced, and directed celebrating Children’s Hospital Los Angeles for ABC television.
