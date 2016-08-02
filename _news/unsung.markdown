@@ -28,6 +28,6 @@ Summer, 2013 saw Chris Mortensen travel to Jersey City, Manhattan, Atlanta and P
 ![manhattans1-1024x764](/uploads/manhattans1-1024x764.jpg) 
 ![manhattans3-1024x574](/uploads/manhattans3-1024x574.jpg)
 
-_Production company:_ A.Smith Properties
+**Production company:** A.Smith Properties
 
-_Executive producer:_ Mark Rowland
+**Executive producer:** Mark Rowland
