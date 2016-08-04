@@ -1,6 +1,30 @@
 ---
 title: Profile
 date: 2015-12-24 18:12:00 -08:00
+Highlights: |-
+  __*Biography*__, the Emmy© award winning A&E series profiling the lives of history’s notable figures.  Multiple episodes including: “Red Baron - Master of the Sky”, “John Paul Jones”, “Field Marshall Bernard Montgomery”, “Andre the Giant” and “Herman Goering.”
+
+  Sworn to Secrecy, the long-running History Channel series narrated by Charlton Heston. Episodes include: “The OSS”, “Roosevelt’s Spymasters”, “Vietnam - Johnson’s Battleground”, “CIA - Cold War,” “Architects of Desert Storm”, etc.
+
+  Modern Marvels, long-running History Channel series celebrating technical achievements of the twentieth century.  Episodes include: “Radio - Out of Thin Air”, “Suez Canal”, “Aswan High Dam.”
+
+  Veteran’s Day - One hour special for History Channel celebrating America’s veterans. Hosted by Jennifer Love Hewitt.
+
+  Beyond the Glory - Emmy© award winning series of biographies profiling legendary athletes.  Episodes include: “Mike Ditka”, “Kobe Bryant”, “Lawrence Taylor”, “Brett Hull”, “Michael Irvin”, etc.
+
+  The Unreal Story of Professional Wrestling - two-hour special for A&E network.  Narrated by Steve Allen.  Investigates the history of the circus-like sport, traces its roots back to 19th century traveling carnivals.
+
+  It’s Only Talk  –  two-hour special for A&E network examines the evolution of TV talk shows from the advent of television up through today.  Interviews w/ Dick Caveat, Ed McMahon, Mike Wallace, Sam Donaldson, Jerry Springer, Maury Povich, Pat Sajack,  et al.
+
+  Sports Century - ESPN’s acclaimed series of one hour sports biographies.  Episodes include: “Michelle Kwan”, “Peggy Fleming”, “O.J. Simpson.”
+
+  Destination Future - series for Discovery Channel.  “High Tech Transport” examines future of commuting.
+
+  Ayn Rand & the Prophecy of Atlas Shrugged - 2012 feature documentary examine the phenomenon of Rand’s novel continuing to sell half a million copies per year fifty years after publication.
+
+  Unsung - TV One’s long running series of one-hour biographies of popular R&B performers is a perennial winner of the NAACP Image Award.  Episodes include: “The Temptations”, “Melba Moore”, “The O’Jays”, “The Manhattans” et al.
+
+  The Moneychangers - 2016 feature documentary follows the history of banking from biblical times up to and including the 2008 financial crisis premieres in theaters this fall.
 navigation_weight: 2
 headline: It’s good to be a little mad.
 bio_pic: "/uploads/bio_pic.jpg"
