@@ -26,7 +26,8 @@ Highlights: |-
 
   The Moneychangers - 2016 feature documentary follows the history of banking from biblical times up to and including the 2008 financial crisis premieres in theaters this fall.
 navigation_weight: 2
-headline: It’s good to be a little mad.
+headline: Chris Mortensen is an award-winning writer, producer and director of film
+  and television.
 bio_pic: "/uploads/bio_pic.jpg"
 color: dark_blue
 images:
@@ -64,8 +65,6 @@ images:
   name: logo-vh1
 layout: profile
 ---
-
-Chris Mortensen is an award-winning writer, producer and director of film and television.
 
 His most recent feature documentary, _‘Scalia: Portrait of a Man &amp; Jurist’_, examining the jurisprudence of the brilliant and controversial Supreme Court Justice and featuring interviews with five sitting Justices, premiered mid-June 2017 on Hulu and is slated for an exclusive iTunes release in July.
 
