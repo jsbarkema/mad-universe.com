@@ -1,9 +1,10 @@
 ---
 title: Hangin With the O’Jays
-date: 2011-06-15 00:00:00 -07:00
+date: 2011-06-15 01:00:00 -07:00
 tags:
 - O’Jays
 position: 5
+is_featured: false
 thumbnail: "/uploads/thumb-temp.jpg"
 color: dark_blue
 Project Type:
