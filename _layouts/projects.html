@@ -8,7 +8,7 @@ layout: default
 		{% assign featured_project = (site.projects | where: 'is_featured', 'true') %}
 		{% for page in featured_project limit: 1 %}
 			<article class="row">
-				<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured_thumbnail }}');">
+				<div class="twelve columns post-feature-container" style="background-image: url('{{ page.images.large_image }}');">
 					<div class="post-feature-info">
 						<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
 						{{ page.content | strip_html | truncatewords:30 }}
