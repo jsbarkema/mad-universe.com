@@ -10,7 +10,7 @@
         </a>
         <div class="post-copy">
           <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-          {{ page.excerpt }}
+          {{ page.content | strip_html | truncatewords:10 }}
         </div>
       </article>
       {% endfor %}
