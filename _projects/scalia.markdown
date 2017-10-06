@@ -8,6 +8,8 @@ project_type: Feature Film
 year: 2016
 images:
 - large_image: "/uploads/header-scalia@2x.jpg"
+- medium_image: "/uploads/header-scalia-medium.jpg"
+- small_image: "/uploads/header-scalia-small.jpg"
 featured_thumbnail: "/uploads/header-scalia@2x.jpg"
 layout: project-page
 ---
