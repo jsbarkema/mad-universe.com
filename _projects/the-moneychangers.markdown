@@ -4,11 +4,10 @@ date: 2016-07-17 23:49:00 -07:00
 tags:
 - featured
 position: 0
-client_name: 
+is_featured: true
 video_link: <iframe src="https://player.vimeo.com/video/172443653" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-is_featured: true
 featured_thumbnail: "/uploads/header-moneychangers@2x.jpg"
 next_project_banner: "/uploads/header-moneychangers-medium.jpg"
 project_thumbnail: "/uploads/header-moneychangers-small.jpg"
@@ -23,10 +22,7 @@ images:
 - path: "/uploads/header-moneychangers-small.jpg"
   name: header-moneychangers-small
   type: small
-Project Type:
-- Feature Film
-Year:
-- 2015
+client_name: 
 layout: project-page
 ---
 
