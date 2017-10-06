@@ -8,22 +8,11 @@ video_link: "<iframe src='https://player.vimeo.com/video/69148899' frameborder='
 color: no-bkg
 project_type: TV Series
 year: 2013
-images:
-- path: "/uploads/header-artist-400.jpg"
-  name: header-artist-400
-- path: "/uploads/header-artist-medium.jpg"
-  name: header-artist-medium
-  type: medium
-- path: "/uploads/header-artist@2x.jpg"
-  name: header-artist@2x
-  type: large
-- path: "/uploads/artist-1-small.jpg"
-  name: artist-1-small
 client_name: Artist 2013
-thumbnail_featured: "/assets/header-artist-800.jpg"
-next_project_banner: "/uploads/header-artist-medium.jpg"
-project_thumbnail: "/uploads/artist-1-small.jpg"
-recent_thumbnail: "/uploads/header-artist-medium.jpg"
+images:
+  large_image: "/uploads/header-artist@2x.jpg"
+  medium_image: "/uploads/header-artist-medium.jpg"
+  small_image: "/uploads/artist-1-small.jpg"
 layout: project-page
 ---
 
