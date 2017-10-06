@@ -16,7 +16,4 @@ Project Type:
 layout: news-page
 ---
 
-Spots will begin airing later this spring.
-
-
 Winter/Spring 2014 – Assigned to produce a package of TV spots and a motivational film for College America Services, the Mad crew toured the American West including stops in California, Utah, Wyoming, Colorado and Arizona.
