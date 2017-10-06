@@ -66,14 +66,16 @@ images:
 layout: profile
 ---
 
-His most recent feature documentary, _‘Scalia: Portrait of a Man &amp; Jurist’_, examining the jurisprudence of the brilliant and controversial Supreme Court Justice and featuring interviews with five sitting Justices, premiered mid-June 2017 on Hulu and is slated for an exclusive iTunes release in July.
+Chris Mortensen is an award-winning writer, producer and director of film and television.  
 
-Mortensen’s previous documentary: _‘The Moneychangers – or Shylock’s History of Moneylending’_ – a brief history of banking leading up to and beyond the 2008 financial crisis premiered last fall with theatrical screenings in San Francisco, Dallas, Philadelphia, New York, Denver and Los Angeles and is now available on iTunes and Amazon.
+His most recent feature documentary, ‘Scalia: Portrait of a Man & Jurist’, examining the jurisprudence of the brilliant and controversial Supreme Court Justice and featuring interviews with five sitting Justices, premiered mid-June 2017 on Hulu and is slated for an exclusive iTunes release in July.
 
-In 2015, Mortensen garnered a Los Angeles area Emmy award for writing and directing _‘Imagine’_, a one hour TV special celebrating Children’s Hospital Los Angeles. The program aired at Christmas time on ABC7.
+Mortensen’s previous documentary:  ‘The Moneychangers – or Shylock’s History of Moneylending’ – a brief history of banking leading up to and beyond the 2008 financial crisis premiered last fall with theatrical screenings in San Francisco, Dallas, Philadelphia, New York, Denver and Los Angeles and is now available on iTunes and Amazon.
 
-_‘Ayn Rand &amp; the Prophecy of Atlas Shrugged’_, Mortensen’s highly-acclaimed 2012 documentary on the phenomenon of the novel that continues to sell hundreds of thousands of copies each year – more than 60 years after its first publication. The documentary screened in more than one hundred U.S. cities and subsequently on Netflix. It can be seen now on most digital platforms including iTunes and Amazon.
+In 2015, Mortensen garnered a Los Angeles area Emmy award for writing and directing ‘Imagine’, a one hour TV special celebrating Children’s Hospital Los Angeles.  The program aired at Christmastime on ABC7.
 
-In addition to his independent film career, Mortensen has written, produced and directed more than 100 hours of documentary and reality programming for television. His programs have appeared on History Channel, A&amp;E, Discovery, TLC, BET, VH-1, TV-One, Lifetime Network, Fox Sports, ESPN, Travel Channel, Versus. GSN, TNN, Spike, et al.
-
-Beyond his documentary career, Mortensen has produced and/or directed television commercial campaigns for national and regional advertisers like: Avis, Valvoline, Mastercard, Ace Hardware, United Airlines, et al. (Clio &amp; Addy awards) as well as corporate identity and marketing films for such clients as Intel, College America, National Gypsum, Century 21 and United Airlines.
+‘Ayn Rand & the Prophecy of Atlas Shrugged’, Mortensen’s highly-acclaimed  2012 documentary on the phenomenon of the novel that continues to sell hundreds of thousands of copies each year – more than 60 years after its first publication.  The documentary screened in more than one hundred U.S. cities and subsequently on Netflix.  It can be seen now on most digital platforms including iTunes and Amazon.
+ 
+In addition to his independent film career, Mortensen has written, produced and directed more than 100 hours of documentary and reality programming for television. His programs have appeared on History Channel, A&E, Discovery, TLC, BET, VH-1, TV-One, Lifetime Network, Fox Sports, ESPN, Travel Channel, Versus. GSN, TNN, Spike, et al.
+ 
+Beyond his documentary career, Mortensen has produced and/or directed television commercial campaigns for national and regional advertisers like: Avis, Valvoline, Mastercard, Ace Hardware, United Airlines, et al. (Clio & Addy awards) as well as corporate identity and marketing films for such clients as Intel, College America, National Gypsum, Century 21 and United Airlines.
