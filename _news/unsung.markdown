@@ -21,9 +21,6 @@ images:
 layout: news-page
 ---
 
-Excerpt.
-
-
 Summer, 2013 saw Chris Mortensen travel to Jersey City, Manhattan, Atlanta and Palm Springs to write and produce an hour-long episode of TV-one’s award-winning Unsung series profiling one of R&B’s most popular and enduring acts – The Manhattans. The program aired early this year (2014).
 
 ![manhattans1-1024x764](/uploads/manhattans1-1024x764.jpg) 
