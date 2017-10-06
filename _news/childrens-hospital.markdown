@@ -6,6 +6,7 @@ tags:
 - ABC7
 - Imagine
 position: 3
+is_featured: false
 thumbnail: "/uploads/child-hospital-400.jpg"
 color: dark_blue
 images:
