@@ -8,6 +8,8 @@ is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/172443653" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
+project_type: Feature Film
+year: 2016
 images:
   large_image: "/uploads/header-moneychangers@2x.jpg"
   medium_image: "/uploads/header-moneychangers-medium.jpg"
