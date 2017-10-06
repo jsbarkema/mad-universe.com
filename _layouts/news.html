@@ -5,20 +5,20 @@ layout: default
   <section class="parent container">
     <h1>{{ page.title }}</h1>
     <!-- Feature Story -->
-    {% assign featured_news = site.news | where: 'featured', 'true' %}
+    {% assign featured_news = site.news | where: 'is_featured', 'true' %}
 		{% for page in featured_news limit: 1 %}
       <article class="row">
       	<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured-thumbnail }}');">
       		<div class="post-feature-info">
       			<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-      			{{ page.excerpt }}
+      			{{ page.content | strip_html | truncatewords:30 }}
       			<a href="{{ page.url }}">View project &raquo;</a>
       		</div>
       	</div>
       </article>
     {% endfor %}
     <div class="row">
-      {% assign news = site.news | where: 'featured', '' %}
+      {% assign news = site.news | where: 'is_featured', 'false' %}
       {% for page in news reversed %}
         <article class="news post-module four columns">
           <a href="{{ page.url }}" class="u-full-width">
@@ -26,7 +26,7 @@ layout: default
           </a>
           <div class="post-copy">
             <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-            {{ page.excerpt | strip_html }}
+            {{ page.content | strip_html | truncatewords:10 }}
             <a href="{{ page.url }}">View post &raquo;</a>
           </div>
         </article>

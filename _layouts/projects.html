@@ -5,7 +5,7 @@ layout: default
 	<section class="parent container">
 		<h1>{{ page.title }}</h1>
 		<!-- Feature Post -->
-		{% assign featured_project = site.projects | where: 'featured', 'true' %}
+		{% assign featured_project = (site.projects | where: 'is_featured', 'true') %}
 		{% for page in featured_project limit: 1 %}
 			<article class="row">
 				<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured_thumbnail }}');">
@@ -19,21 +19,21 @@ layout: default
 		{% endfor %}
 		<!-- Past Posts -->
 		<section class="row project-grid">
-			{% assign projects = site.projects | where: 'featured', '' %}
-			{% for page in projects reversed %}
-				<article class="projects post-module">
-					<div class="post-thumb">
-						<img src="{{ page.project_thumbnail }}" alt="{{ asset.meta['name'] }}" class="u-full-width">
-					</div>
-					<div class="overlay">
-						<div class="view-wrap">
-							<div style="display:block;">
-								<h3>{{ page.title }}</h3>
-							</div>
-							<a href="{{ page.url }}" class="view button">View project &raquo;</a>
+		{% assign projects = (site.projects | where: 'is_featured', 'false') | sort: 'position' %}
+		{% for page in projects %}
+			<article class="projects post-module">
+				<div class="post-thumb">
+					<img src="{{ page.project_thumbnail }}" alt="{{ asset.meta['name'] }}" class="u-full-width">
+				</div>
+				<div class="overlay">
+					<div class="view-wrap">
+						<div style="display:block;">
+							<h3>{{ page.title }}</h3>
 						</div>
+						<a href="{{ page.url }}" class="view button">View project &raquo;</a>
 					</div>
-				</article>
-		  {% endfor %}
+				</div>
+			</article>
+	  {% endfor %}
 		</section>
 	</section><!-- /content -->
