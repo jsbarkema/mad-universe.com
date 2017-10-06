@@ -8,6 +8,10 @@ is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/172443653" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
+images:
+  large_image: "/uploads/header-moneychangers@2x.jpg"
+  medium_image: "/uploads/header-moneychangers-medium.jpg"
+  small_image: "/uploads/header-moneychangers-small.jpg"
 featured_thumbnail: "/uploads/header-moneychangers@2x.jpg"
 next_project_banner: "/uploads/header-moneychangers-medium.jpg"
 project_thumbnail: "/uploads/header-moneychangers-small.jpg"
