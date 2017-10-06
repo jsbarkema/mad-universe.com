@@ -1,9 +1,9 @@
 ---
 title: 'Fearless: Dennis Connor'
-date: 2011-03-18 18:30:00 -07:00
+date: 2011-03-18 19:30:00 -07:00
 position: 6
 client_name: 
-featured: 
+is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/21238910" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
