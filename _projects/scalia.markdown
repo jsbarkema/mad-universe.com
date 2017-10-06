@@ -4,13 +4,11 @@ date: 2017-10-06 12:58:00 -07:00
 is_featured: true
 video_link: <iframe src="https://player.vimeo.com/video/210836273" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-featured_thumbnail: "/uploads/header-scalia@2x.jpg"
 project_type: Feature Film
 year: 2016
 images:
-  large_image: "/uploads/header-scalia@2x.jpg"
-  medium_image: 
-  small_image: 
+- large_image: "/uploads/header-scalia@2x.jpg"
+featured_thumbnail: "/uploads/header-scalia@2x.jpg"
 layout: project-page
 ---
 
