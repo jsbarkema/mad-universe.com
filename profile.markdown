@@ -66,8 +66,6 @@ images:
 layout: profile
 ---
 
-Chris Mortensen is an award-winning writer, producer and director of film and television.  
-
 His most recent feature documentary, ‘Scalia: Portrait of a Man & Jurist’, examining the jurisprudence of the brilliant and controversial Supreme Court Justice and featuring interviews with five sitting Justices, premiered mid-June 2017 on Hulu and is slated for an exclusive iTunes release in July.
 
 Mortensen’s previous documentary:  ‘The Moneychangers – or Shylock’s History of Moneylending’ – a brief history of banking leading up to and beyond the 2008 financial crisis premiered last fall with theatrical screenings in San Francisco, Dallas, Philadelphia, New York, Denver and Los Angeles and is now available on iTunes and Amazon.
