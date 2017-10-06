@@ -12,16 +12,6 @@ featured_thumbnail: "/uploads/header-moneychangers@2x.jpg"
 next_project_banner: "/uploads/header-moneychangers-medium.jpg"
 project_thumbnail: "/uploads/header-moneychangers-small.jpg"
 recent_thumbnail: "/uploads/header-moneychangers-medium.jpg"
-images:
-- path: "/uploads/header-moneychangers@2x.jpg"
-  name: header-moneychangers@2x
-  type: large
-- path: "/uploads/header-moneychangers-medium.jpg"
-  name: header-moneychangers-medium
-  type: medium
-- path: "/uploads/header-moneychangers-small.jpg"
-  name: header-moneychangers-small
-  type: small
 client_name: 
 layout: project-page
 ---
