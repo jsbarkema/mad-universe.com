@@ -11,7 +11,7 @@ layout: default
 				<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured_thumbnail }}');">
 					<div class="post-feature-info">
 						<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-						{{ page.excerpt }}
+						{{ page.content | strip_html | truncatewords:30 }}
 						<a href="{{ page.url }}">View project &raquo;</a>
 					</div>
 				</div>
