@@ -25,19 +25,19 @@ defaults:
     type: projects
   values:
     layout: project-page
-    is_featured:
-    video_link:
-    color:
-    featured_thumbnail:
-    next_project_banner:
-    project_thumbnail:
-    recent_thumbnail:
+    is_featured: 
+    video_link: 
+    color: 
+    featured_thumbnail: 
+    next_project_banner: 
+    project_thumbnail: 
+    recent_thumbnail: 
     images:
-      path:
-      name:
-      type:
-    project_type:
-    year:
+      path: 
+      name: 
+      type: 
+    project_type: 
+    year: 
 url: http://mad-universe.siteleaf.net
 permalink: pretty
 chris_email: chris@mad-universe.com
