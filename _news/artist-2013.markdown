@@ -4,6 +4,7 @@ date: 2014-04-13 23:38:00 -07:00
 tags:
 - Artist 2013
 position: 8
+is_featured: false
 thumbnail: "/uploads/yana4.jpg"
 color: dark_blue
 Project Type:
