@@ -4,7 +4,7 @@ date: 2016-07-17 23:49:00 -07:00
 tags:
 - featured
 position: 0
-is_featured: true
+is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/172443653" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
