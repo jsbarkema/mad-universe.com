@@ -21,7 +21,4 @@ images:
 layout: news-page
 ---
 
-TV Special about local Children’s Hospital wins award.
-
-
 In June 2015, Chris Mortensen received a L.A. area Emmy Award for writing and directing a one hour special for ABCTV celebrating Children’s Hospital Los Angeles. The special was produced by Hollywood-based [Yu & Company](http://yuco.com). Executive producers Garson Yu and Carol Wong also received Emmys.
