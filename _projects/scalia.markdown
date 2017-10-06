@@ -1,6 +1,9 @@
 ---
 title: 'Scalia: Portrait of a Man & Jurist'
 date: 2017-10-06 12:58:00 -07:00
+is_featured: true
+project_type: Feature Film
+year: 2016
 layout: project-page
 ---
 
