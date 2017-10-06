@@ -12,11 +12,6 @@ images:
   large_image: "/uploads/header-moneychangers@2x.jpg"
   medium_image: "/uploads/header-moneychangers-medium.jpg"
   small_image: "/uploads/header-moneychangers-small.jpg"
-featured_thumbnail: "/uploads/header-moneychangers@2x.jpg"
-next_project_banner: "/uploads/header-moneychangers-medium.jpg"
-project_thumbnail: "/uploads/header-moneychangers-small.jpg"
-recent_thumbnail: "/uploads/header-moneychangers-medium.jpg"
-client_name: 
 layout: project-page
 ---
 
