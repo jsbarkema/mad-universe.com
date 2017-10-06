@@ -25,14 +25,14 @@ defaults:
     type: projects
   values:
     layout: project-page
-    is_featured:
-    video_link:
-    color:
-    project_type:
-    year:
+    is_featured: 
+    video_link: 
+    color: 
+    project_type: 
+    year: 
     images:
-      large_image:
-      medium_image:
+      large_image: 
+      medium_image: 
       small_image: 
 url: http://mad-universe.siteleaf.net
 permalink: pretty
