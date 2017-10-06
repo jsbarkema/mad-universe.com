@@ -5,6 +5,7 @@ tags:
 - Manhattans
 - Unsung
 position: 9
+is_featured: false
 thumbnail: "/uploads/manhattans2.jpg"
 color: dark_blue
 Project Type:
