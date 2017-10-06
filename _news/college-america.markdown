@@ -4,6 +4,7 @@ date: 2014-04-17 23:47:00 -07:00
 tags:
 - College America
 position: 2
+is_featured: false
 thumbnail: "/uploads/college1.jpg"
 color: dark_blue
 images:
