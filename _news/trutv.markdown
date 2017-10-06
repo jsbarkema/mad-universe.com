@@ -1,10 +1,11 @@
 ---
 title: TruTv
-date: 2011-05-12 23:22:00 -07:00
+date: 2011-05-13 00:22:00 -07:00
 tags:
 - Jesse Ventura
 - TruTV
 position: 4
+is_featured: false
 thumbnail: "/uploads/thumb-temp.jpg"
 color: dark_blue
 Project Type:
