@@ -7,7 +7,7 @@ tags:
 - featured
 position: 0
 thumbnail: "/uploads/emmy-crop-400.jpg"
-featured: true
+is_featured: true
 featured-thumbnail: "/uploads/emmy-crop-1000.jpg"
 color: dark_blue
 images:
