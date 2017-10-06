@@ -3,7 +3,7 @@ title: Children’s Hospital of Los Angeles
 date: 2016-01-06 23:48:00 -08:00
 position: 1
 client_name: YuCo
-is_featured: 
+is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/92856078" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
