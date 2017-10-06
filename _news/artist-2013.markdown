@@ -20,6 +20,8 @@ images:
 layout: news-page
 ---
 
+
+
 In Spring 2013 Mad Universe produced a half hour pilot for a series profiling young artists, their struggles and triumphs as they try to make a living while at the same time realizing their dreams. The pilot followed Russian born pianist Yana Reznik as she prepared for a concert.
 
 ![yana3-1024x604](/uploads/yana3-1024x604.jpg)
