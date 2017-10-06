@@ -15,8 +15,8 @@ Project Type:
 layout: news-page
 ---
 
-**The Moneychangers** is a feature-length documentary film that, for the first time, examines the evolution, viability, and morality of America’s financial system. Appropriately, our guide for this sordid tale is none other than the direct descendent of the world’s most experienced (and notorious) loan shark: Shylock. Yes, _the_ Shylock.
+*The Moneychangers* is a feature-length documentary film that, for the first time, examines the evolution, viability, and morality of America’s financial system. Appropriately, our guide for this sordid tale is none other than the direct descendent of the world’s most experienced (and notorious) loan shark: Shylock. Yes, _the_ Shylock.
 
-**The Moneychangers** or _Shylock’s History of Money Grubbing_ includes interviews with leading financial figures, former heads of the FED and FDIC, economists, bankers, Wall Street insiders, economic historians, and the man-on-the-street to provide a provocative, informative, and objective investigation of this controversial, highly charged, largely misunderstood topic. It’s guaranteed to shatter your preconceived notions about banks, crises, and regulations—or, at the very least, leave you shaking your head at the insanity of it all.
+*The Moneychangers* or _Shylock’s History of Money Grubbing_ includes interviews with leading financial figures, former heads of the FED and FDIC, economists, bankers, Wall Street insiders, economic historians, and the man-on-the-street to provide a provocative, informative, and objective investigation of this controversial, highly charged, largely misunderstood topic. It’s guaranteed to shatter your preconceived notions about banks, crises, and regulations—or, at the very least, leave you shaking your head at the insanity of it all.
 
 For information go to visit the movie site: [The Moneychangers](http://www.moneychangersfilm.com/)
