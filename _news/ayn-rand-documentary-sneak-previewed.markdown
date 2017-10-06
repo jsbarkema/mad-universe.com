@@ -1,6 +1,6 @@
 ---
 title: Ayn Rand Documentary Sneak-Previewed
-date: 2011-08-12 01:35:00 -07:00
+date: 2011-08-12 00:35:00 -07:00
 tags:
 - Ayn Rand
 position: 7
@@ -20,5 +20,8 @@ images:
   header_type: news
 layout: news-page
 ---
+
+Documentary kicks off OCON 2011 gathering.
+
 
 Chris Mortensen’s feature documentary film: Ayn Rand and the Prophecy of Atlas Shrugged was sneak-previewed on the evening of July 3 to an enthusiastic crowd as a kickoff to the OCON 2011 gathering in Fort Lauderdale. Mortensen was on hand to introduce the film and take questions and comments afterward.
