@@ -24,9 +24,6 @@ Project Type:
 layout: news-page
 ---
 
-TV Special to run during Holiday Season
-
-
 In January 2014, “Imagine”, a one-hour special celebrating Children’s Hospital Los Angeles, hosted by Gray’s Anatomy star Jessica Capshaw and produced, written and directed by Chris Mortensen aired on ABC7.
 
 <figure><img src="/uploads/hospital2-1024x570.jpg"></figure>
