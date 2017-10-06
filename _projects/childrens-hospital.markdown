@@ -2,26 +2,16 @@
 title: Children’s Hospital of Los Angeles
 date: 2016-01-06 23:48:00 -08:00
 position: 1
-client_name: YuCo
 is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/92856078" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-thumbnail_featured: 
-next_project_banner: "/uploads/childrens-hospital-medium.jpg"
-project_thumbnail: "/uploads/childrens-hospital-small.jpg"
-recent_thumbnail: "/uploads/childrens-hospital-medium.jpg"
+project_type: TV Series
+year: 2015
 images:
-- path: "/uploads/childrens-hospital@2x.jpg"
-  name: childrens-hospital@2x
-  type: large
-- path: "/uploads/childrens-hospital-medium.jpg"
-  name: childrens-hospital-medium
-  type: medium
-- path: "/uploads/childrens-hospital-small.jpg"
-  name: childrens-hospital-small
-Year:
-- 2015
+  large_image: "/uploads/childrens-hospital@2x.jpg"
+  medium_image: "/uploads/childrens-hospital-medium.jpg"
+  small_image: "/uploads/childrens-hospital-small.jpg"
 layout: project-page
 ---
 
