@@ -12,6 +12,6 @@ Project Type:
 layout: news-page
 ---
 
-With Walt Williams and Eddie Levert – original lead singers of the legendary O’Jays __Love Train, For the Love of Money, Backstabbers__.
+With Walt Williams and Eddie Levert – original lead singers of the legendary O’Jays _Love Train, For the Love of Money, Backstabbers_.
 
 Mortensen wrote and produced an hour documentary last fall on the soul group for the TV One series Unsung.
