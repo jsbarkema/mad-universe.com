@@ -34,11 +34,8 @@ defaults:
     recent_thumbnail:
     images:
     - path:
-      value:
     - name:
-      value:
     - type:
-      value:
     project_type:
     year:
 url: http://mad-universe.siteleaf.net
