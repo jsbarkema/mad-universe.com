@@ -7,7 +7,7 @@ video_link: <iframe src="https://player.vimeo.com/video/210836273" width="640" h
 featured_thumbnail: "/uploads/header-scalia@2x.jpg"
 project_type: Feature Film
 year: 2016
-Field name:
+images:
   large_image: "/uploads/header-scalia@2x.jpg"
   medium_image: 
   small_image: 
