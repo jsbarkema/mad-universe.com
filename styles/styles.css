@@ -1497,12 +1497,10 @@ footer {
     font-size: 4.75rem; } }
 @media only screen and (min-width: 640px) {
   .profile-body h1 {
-    width: 80%;
-    font-size: 5.875rem; } }
+    width: 80%; } }
 @media only screen and (min-width: 1000px) {
   .profile-body h1 {
-    width: 70%;
-    font-size: 7.0rem; } }
+    width: 70%; } }
 * {
   margin: 0;
   padding: 0;
