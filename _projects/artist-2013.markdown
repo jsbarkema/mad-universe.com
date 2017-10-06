@@ -2,15 +2,12 @@
 title: Artist 2013
 date: 2016-01-06 13:07:00 -08:00
 position: 2
-client_name: Artist 2013
 is_featured: false
 video_link: "<iframe src='https://player.vimeo.com/video/69148899' frameborder='0'
   webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>"
 color: no-bkg
-thumbnail_featured: "/assets/header-artist-800.jpg"
-next_project_banner: "/uploads/header-artist-medium.jpg"
-project_thumbnail: "/uploads/artist-1-small.jpg"
-recent_thumbnail: "/uploads/header-artist-medium.jpg"
+project_type: TV Series
+year: 2013
 images:
 - path: "/uploads/header-artist-400.jpg"
   name: header-artist-400
@@ -22,10 +19,11 @@ images:
   type: large
 - path: "/uploads/artist-1-small.jpg"
   name: artist-1-small
-Project Type:
-- TV Series
-Year:
-- 2013
+client_name: Artist 2013
+thumbnail_featured: "/assets/header-artist-800.jpg"
+next_project_banner: "/uploads/header-artist-medium.jpg"
+project_thumbnail: "/uploads/artist-1-small.jpg"
+recent_thumbnail: "/uploads/header-artist-medium.jpg"
 layout: project-page
 ---
 
