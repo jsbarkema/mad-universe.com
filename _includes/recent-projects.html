@@ -5,7 +5,7 @@
     {% for page in sorted | post limit:2 %}
       <article class="projects post-module six columns collapse">
         <div class="post-thumb">
-          <img src="{{ page.recent_thumbnail }}" class="u-full-width">
+          <img src="{{ page.image.medium_image }}" class="u-full-width">
         </div>
         <div class="overlay">
           <div class="view-wrap">
