@@ -1,29 +1,15 @@
 ---
 title: 'American Gangster: Melvin Williams'
-date: 2011-03-18 19:22:00 -07:00
+date: 2011-03-18 20:22:00 -07:00
 position: 7
-client_name: 
 is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/21240826" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-thumbnail_featured: 
-project_thumbnail: "/uploads/melvin1-small.jpg"
-next_project_banner: "/uploads/header-melvin-medium.jpg"
-recent_thumbnail: "/uploads/header-melvin2-medium.jpg"
 images:
-- path: "/uploads/melvin1-small.jpg"
-  name: melvin1-small
-- path: "/uploads/header-melvin@2x.jpg"
-  name: header-melvin@2x
-- path: "/uploads/header-melvin-medium.jpg"
-  name: header-melvin-medium
-- path: "/uploads/header-melvin2-medium.jpg"
-  name: header-melvin2-medium
-  type: medium
-- path: "/uploads/header-melvin2@2x.jpg"
-  name: header-melvin2@2x
-  type: large
+  large_image: "/uploads/header-melvin2@2x.jpg"
+  medium_image: "/uploads/header-melvin2-medium.jpg"
+  small_image: "/uploads/melvin1-small.jpg"
 layout: project-page
 ---
 
