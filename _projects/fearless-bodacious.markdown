@@ -1,25 +1,15 @@
 ---
 title: 'Fearless: Bodacious'
-date: 2011-03-14 19:34:00 -07:00
+date: 2011-03-14 20:34:00 -07:00
 position: 8
-client_name: 
 is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/21237831" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-thumbnail_featured: 
-project_thumbnail: "/uploads/bodacious1-small.jpg"
-recent_thumbnail: "/uploads/header-bodacious-medium.jpg"
-next_project_banner: "/uploads/header-bodacious-medium.jpg"
 images:
-- path: "/uploads/header-bodacious-medium.jpg"
-  name: header-bodacious-medium
-  type: medium
-- path: "/uploads/header-bodacious@2x.jpg"
-  name: header-bodacious@2x
-  type: large
-- path: "/uploads/bodacious1-small.jpg"
-  name: bodacious1-small
+  large_image: "/uploads/header-bodacious@2x.jpg"
+  medium_image: "/uploads/header-bodacious-medium.jpg"
+  small_image: "/uploads/bodacious1-small.jpg"
 layout: project-page
 ---
 
