@@ -5,21 +5,11 @@ position: 5
 is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/28461070" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-next_project_banner: "/uploads/header-ditka-medium.jpg"
-project_thumbnail: "/uploads/ditka1-small.jpg"
-recent_thumbnail: "/uploads/header-ditka-medium.jpg"
 color: no-bkg
 images:
-- path: "/uploads/header-ditka-medium.jpg"
-  name: header-ditka-medium
-  type: medium
-- path: "/uploads/header-ditka@2x.jpg"
-  name: header-ditka@2x
-  type: large
-- path: "/uploads/ditka1-small.jpg"
-  name: ditka1-small
-- path: "/uploads/ditka1-medium.jpg"
-  name: ditka1-medium
+  large_image: "/uploads/header-ditka@2x.jpg"
+  medium_image: "/uploads/ditka1-medium.jpg"
+  small_image: "/uploads/ditka1-small.jpg"
 layout: project-page
 ---
 
