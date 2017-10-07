@@ -1,6 +1,7 @@
 ---
 title: Documentary Based on Atlas Shrugged
-date: 2011-08-11 00:29:00 -07:00
+date: 2011-08-11 01:29:00 -07:00
+published: false
 tags:
 - Ayn Rand
 position: 6
