@@ -1,25 +1,15 @@
 ---
 title: 'Fearless: Dennis Connor'
-date: 2011-03-18 19:30:00 -07:00
+date: 2011-03-18 20:30:00 -07:00
 position: 6
-client_name: 
 is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/21238910" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-thumbnail_featured: 
-project_thumbnail: "/uploads/dennis-connor1-small.jpg"
-next_project_banner: "/uploads/header-dennis-connor-medium.jpg"
-recent_thumbnail: "/uploads/header-dennis-connor-medium.jpg"
 images:
-- path: "/uploads/header-dennis-connor@2x.jpg"
-  name: header-dennis-connor@2x
-  type: large
-- path: "/uploads/header-dennis-connor-medium.jpg"
-  name: header-dennis-connor-medium
-  type: medium
-- path: "/uploads/dennis-connor1-small.jpg"
-  name: dennis-connor1-small
+  large_image: "/uploads/header-dennis-connor@2x.jpg"
+  medium_image: "/uploads/header-dennis-connor-medium.jpg"
+  small_image: "/uploads/dennis-connor1-small.jpg"
 layout: project-page
 ---
 
