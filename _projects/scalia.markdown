@@ -7,7 +7,7 @@ video_link: <iframe src="https://player.vimeo.com/video/210836273" width="640" h
 project_type: Feature Film
 year: 2016
 images:
-  large_image: "/uploads/header-scalia@2x.jpg"
+  large_image: "/uploads/header2-scalia@2x.jpg"
   medium_image: "/uploads/header-scalia-medium.jpg"
   small_image: "/uploads/header-scalia-small.jpg"
 layout: project-page
