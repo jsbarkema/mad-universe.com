@@ -5,19 +5,11 @@ position: 4
 is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/28389901" width="640" height="480"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-project_thumbnail: "/uploads/bretthull-1-small.jpg"
-next_project_banner: "/uploads/header-bretthull-medium.jpg"
 color: no-bkg
 images:
-- path: "/uploads/bretthull-1-small.jpg"
-  name: bretthull-1-small
-  type: small
-- path: "/uploads/header-bretthull-medium.jpg"
-  name: header-bretthull-medium
-  type: medium
-- path: "/uploads/header-bretthull@2x.jpg"
-  name: header-bretthull@2x
-  type: large
+  large_image: "/uploads/header-bretthull@2x.jpg"
+  medium_image: "/uploads/header-bretthull-medium.jpg"
+  small_image: "/uploads/bretthull-1-small.jpg"
 layout: project-page
 ---
 
