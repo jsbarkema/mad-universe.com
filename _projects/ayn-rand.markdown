@@ -3,30 +3,18 @@ title: Ayn Rand and the Prophecy of Atlas Shrugged
 date: 2016-01-05 00:15:00 -08:00
 position: 3
 is_featured: false
-color: no-bkg
 video_link: "<style>.embed-container { position: relative; padding-bottom: 56.25%;
   height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container
   object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%;
   height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/pMnOOV5WtVs'
   frameborder='0' allowfullscreen></iframe></div>"
-thumbnail_featured: 
-next_project_banner: "/uploads/header-ayn-rand-medium.jpg"
-project_thumbnail: "/uploads/header-ayn-rand-small.jpg"
-recent_thumbnail: "/uploads/header-ayn-rand-medium.jpg"
+color: no-bkg
+project_type: Documentary
+year: 2014
 images:
-- path: "/uploads/rand-fb-poster.jpg"
-  name: movie-poster
-  caption: Documentary movie poster.
-  class: border-fat
-- path: "/uploads/header-ayn-rand@2x.jpg"
-  name: header-ayn-rand@2x
-  type: large
-- path: "/uploads/header-ayn-rand-medium.jpg"
-  name: ayn-rand-medium
-  type: medium
-- path: "/uploads/header-ayn-rand-small.jpg"
-  name: header-ayn-rand-small
-  type: small
+  large_image: "/uploads/header-ayn-rand@2x.jpg"
+  medium_image: "/uploads/header-ayn-rand-medium.jpg"
+  small_image: "/uploads/header-ayn-rand-small.jpg"
 layout: project-page
 ---
 
