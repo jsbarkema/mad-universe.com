@@ -2,24 +2,14 @@
 title: 'American Gangster: Willie Lloyd'
 date: 2011-03-09 18:11:00 -08:00
 position: 9
-client_name: 
 is_featured: false
 video_link: <iframe src="https://player.vimeo.com/video/21184784" frameborder="0"
   webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 color: no-bkg
-thumbnail_featured: 
-project_thumbnail: "/uploads/willie-lloyd1-small.jpg"
-recent_thumbnail: "/uploads/header-willielloyd-medium.jpg"
-next_project_banner: "/uploads/header-willielloyd-medium.jpg"
 images:
-- path: "/uploads/header-willielloyd@2x.jpg"
-  name: header-willielloyd@2x
-  type: large
-- path: "/uploads/header-willielloyd-medium.jpg"
-  name: header-willielloyd-medium
-  type: medium
-- path: "/uploads/willie-lloyd1-small.jpg"
-  name: willie-lloyd1-small
+  large_image: "/uploads/header-willielloyd@2x.jpg"
+  medium_image: "/uploads/header-willielloyd-medium.jpg"
+  small_image: "/uploads/willie-lloyd1-small.jpg"
 layout: project-page
 ---
 
