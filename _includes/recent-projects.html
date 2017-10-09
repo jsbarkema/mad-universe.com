@@ -1,11 +1,11 @@
 <div class="container">
   <section class="recent-section row project-grid">
     <h2>Recent Projects</h2>
-    {% assign sorted = (site.projects | sort: 'date' | reverse) %}
+    {% assign sorted = site.projects | sort: 'date' | reverse %}
     {% for page in sorted | post limit:2 %}
       <article class="projects post-module six columns collapse">
         <div class="post-thumb">
-          <img src="{{ page.image.medium_image }}" class="u-full-width">
+          <img src="{{ page.images.medium_image }}" class="u-full-width">
         </div>
         <div class="overlay">
           <div class="view-wrap">
