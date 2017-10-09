@@ -17,7 +17,7 @@ images:
 layout: project-page
 ---
 
-Mad Universe’s independent feature film documentary: _The Moneychangers_ has just been completed.
+**Mad Universe’s independent feature film documentary: _The Moneychangers_ has just been completed.**
 
 
 <figure><img src="http://placehold.it/1000x500"></figure>
