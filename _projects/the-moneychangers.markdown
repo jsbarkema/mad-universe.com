@@ -19,9 +19,6 @@ layout: project-page
 
 **Mad Universe’s independent feature film documentary: _The Moneychangers_ has just been completed.**
 
-
-<figure><img src="http://placehold.it/1000x500"></figure>
-
 The film traces the often tenuous relationship between banking and big government through history and sheds new light on the origin of financial crises up to and including 2008. The film is wryly narrated by the contemporary descendent of “Shylock” and includes eye-opening interviews with notable financial figures, analysts, Wall Street insiders, economists as well as former heads of the FDIC and Federal Reserve.
 
 Visit _The Moneychangers_ website: <a href="www.moneychangersfilm.com" target="_blank"> www.moneychangersfilm.com</a>
