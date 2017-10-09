@@ -1,0 +1,43 @@
+---
+title: mad-universe.com
+timezone: America/Los_Angeles
+collections:
+  news:
+    title: News
+    output: true
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project-page
+    is_featured: 
+    video_link: 
+    color: 
+    project_type: 
+    year: 
+    images:
+      large_image: 
+      medium_image: 
+      small_image: 
+url: http://mad-universe.siteleaf.net
+permalink: pretty
+chris_email: chris@mad-universe.com
+dark_blue: "#000910"
+light_yellow: "#fafae5"
+dark_grey: "#333333"
+light_green: "#e6f9ee"

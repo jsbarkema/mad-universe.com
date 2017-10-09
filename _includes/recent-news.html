@@ -1,0 +1,20 @@
+<section class="news-section">
+  <div class="container">
+    <h2>News</h2>
+    <div class="row">
+      {% assign sorted = (site.news | sort: 'date') | reverse %}
+      {% for page in sorted | post limit:4 %}
+      <article class="recent-news four columns post-module">
+        <a href="{{ page.url }}" class="u-full-width">
+          <div class="post-thumb" style="background-image: url('{{ page.thumbnail }}');"></div>
+        </a>
+        <div class="post-copy">
+          <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+          {{ page.content | strip_html | truncatewords:10 }}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  </div>
+</section>

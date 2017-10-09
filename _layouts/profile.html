@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="profile-body container">
+  <h1>{{ page.headline }}</h1>
+  {{ content }}
+</div>
+<div class="profile-image row">
+  <img src="{{ page.bio_pic }}" class="u-full-width">
+</div>
+<div class="logo-grid">
+   <div class="container">
+      <h2>Clients</h2>
+   </div>
+   <div class="container">
+      <ul class="row">
+        {% for image in page.images %}
+        <li class="logo-module">
+          <img src="{{ image.path }}" alt="{{ image.name }}">
+        </li>
+        {% endfor %}
+      </ul>
+   </div>
+</div>

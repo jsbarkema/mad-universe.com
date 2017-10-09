@@ -1,0 +1,58 @@
+<!-- DOCTYPE html -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ site.title }}</title>
+		<link href="/styles/fonts.css" rel="stylesheet" type="text/css" media="all">
+		<link href="/styles/styles.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+	<body>
+		<!-- Header / Navigation -->
+		<header class="bg-{{page.color | fallback: 'site.dark_blue'}}">
+			<nav class="container">
+				<div class="row">
+					<div class="logo-section">
+						<a href="/"><img src="/images/mu-logo.svg" class="logo"></a>
+					</div>
+					<ul class="navbar-list">
+						{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+						{% for p in navigation_pages %}
+							{% if p.navigation_weight %}
+								<li>
+									<a href="{{ p.url }}" {% if p.url == page.url %}class="selected"{% endif %}>
+										{{ p.title }}
+									</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- Main Content -->
+		<div class="main-content">
+			<section>
+				<article class="header-news container">
+					{% for image in page.images %}{% if image.header-type == 'news' %}
+						<div class="header-image" style="background-image: url({{ image.path }});">
+						</div>
+			    {% endif %}{% endfor %}
+			      <img src="{{ image.path }}">
+
+					<h3>{{ page.date | date: '%B %d, %Y' }}</h3>
+					<h1>{{ page.title }}</h1>
+			  </article>
+				<article class="row container">
+					{{ content }}
+				</article>
+			  <div class="container">
+			    <p class="content-footer container"><a href="/news">&larr; Back to news</a></p>
+			  </div>
+			</section>
+		</div>
+    <!-- Footer -->
+    {% include footer.html %}
+    {% include scripts.html %}
+	</body>
+</html>

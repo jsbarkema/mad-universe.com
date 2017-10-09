@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+  <section class="parent container">
+    <h1>{{ page.title }}</h1>
+    <!-- Feature Story -->
+    {% assign featured_news = site.news | where: 'is_featured', 'true' %}
+		{% for page in featured_news limit: 1 %}
+      <article class="row">
+      	<div class="twelve columns post-feature-container" style="background-image: url('{{ page.featured-thumbnail }}');">
+      		<div class="post-feature-info">
+      			<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+      			<p>{{ page.content | strip_html | truncatewords:20 }}</p>
+      			<a href="{{ page.url }}">View project &raquo;</a>
+      		</div>
+      	</div>
+      </article>
+    {% endfor %}
+    <div class="row">
+      {% assign news = site.news | where: 'is_featured', 'false' %}
+      {% for page in news reversed %}
+        <article class="news post-module four columns">
+          <a href="{{ page.url }}" class="u-full-width">
+            <div class="post-thumb" style="background-image: url('{{ page.thumbnail }}');"></div>
+          </a>
+          <div class="post-copy">
+            <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+            <p>{{ page.content | strip_html | truncatewords:10 }}</p>
+            <a href="{{ page.url }}">View post &raquo;</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% if parent %}
+    <p><a href="{{ parent.url }}">&larr; Back to {{ parent.title }}</a></p>
+  {% endif %}
