@@ -6,7 +6,7 @@ is_featured: false
 thumbnail: "/uploads/moneychangers1.jpg"
 color: dark_blue
 images:
-- path: "/uploads/moneychangers1.jpg"
+- path: "/uploads/moneychangers-large.jpg"
   name: moneychangers1
   header-type: news
   thumb: post-thumb
