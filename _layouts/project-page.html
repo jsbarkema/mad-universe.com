@@ -66,8 +66,44 @@
 				</article>
 				{% endif %}
 			</section>
-			{% include call-to-action.html %}
-			{% include next-project.html %}
+
+			{% capture the_collection %}{{page.collection}}{% endcapture %}
+			{% if page.collection %}
+			  {% assign  document = site[the_collection]  %}
+			{% endif %}
+
+			{% for links in document  %}
+			{% if forloop.first %}
+				{% assign first = links %}
+			{% endif %}
+			{% if forloop.last %}
+				{% assign last = links %}
+			{% endif %}
+			  {% if links.title == page.title %}
+				{% unless forloop.first %}
+					{% assign prevurl = prev.url %}
+				{% endunless %}
+				{% unless forloop.last %}
+					{% assign next = document[forloop.index] %}
+					{% assign nexturl = next.url %}
+				{% endunless %}
+			  {% endif %}
+			  {% assign prev = links %}
+			{% endfor %}
+
+			{% assign firsturl = first.url %}
+			{% assign lasturl = last.url %}
+
+			<div class="prev-next">
+				<div class="container">
+					<div class="six columns prev">
+						{% if prevurl %}<a href="{{ prevurl }}">← {{ page.previous.title }}</a>{% else %}<a href="{{ lasturl }}" class="prev">← {{ page.title }}</a>{% endif %}
+					</div>
+					<div class="six columns next">
+						{% if nexturl %}<a href="{{ nexturl }}">{{ page.next.title }} →</a>{% else %}<a href="{{ firsturl }}" class="prev">{{ page.title }} →</a>{% endif %}
+					</div>
+				</div>
+			</div>
 		</div>
     <!-- Footer -->
 		{% include footer.html %}

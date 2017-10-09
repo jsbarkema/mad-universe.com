@@ -5,13 +5,13 @@ layout: default
 	<section class="parent container">
 		<h1>{{ page.title }}</h1>
 		<!-- Feature Post -->
-		{% assign featured_project = (site.projects | where: 'is_featured', 'true') %}
+		{% assign featured_project = site.projects | where: 'is_featured', 'true' %}
 		{% for page in featured_project limit: 1 %}
 			<article class="row">
 				<div class="twelve columns post-feature-container" style="background-image: url('{{ page.images.large_image }}');">
 					<div class="post-feature-info">
 						<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-						{{ page.content | strip_html | truncatewords:30 }}
+						<p>{{ page.content | strip_html | truncatewords:20 }}</p>
 						<a href="{{ page.url }}">View project &raquo;</a>
 					</div>
 				</div>
@@ -19,11 +19,11 @@ layout: default
 		{% endfor %}
 		<!-- Past Posts -->
 		<section class="row project-grid">
-		{% assign projects = (site.projects | where: 'is_featured', 'false') | sort: 'position' %}
+		{% assign projects = site.projects | where: 'is_featured', 'false' | sort: 'position' %}
 		{% for page in projects %}
 			<article class="projects post-module">
 				<div class="post-thumb">
-					<img src="{{ page.project_thumbnail }}" alt="{{ asset.meta['name'] }}" class="u-full-width">
+					<img src="{{ page.images.medium_image }}" alt="" class="u-full-width">
 				</div>
 				<div class="overlay">
 					<div class="view-wrap">

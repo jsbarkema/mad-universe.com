@@ -383,6 +383,20 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+.prev-next {
+  height: 8rem;
+
+  .prev {
+    text-align: left;
+    padding-top: 2.2%;
+  }
+
+  .next {
+    text-align: right;
+    padding-top: 2.2%;
+  }
+}
+
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
