@@ -874,7 +874,7 @@ there.
   background-color: #fafae5; }
 
 .bg-no-bkg {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   padding: 1em 0; }
 
 .red {
@@ -1247,7 +1247,7 @@ footer {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: transparent; }
+    background-color: rgba(0, 0, 0, 0); }
   .projects.post-module .overlay:hover {
     background-color: rgba(47, 184, 144, 0.4);
     -webkit-transition: 100ms ease-out;
@@ -1339,7 +1339,7 @@ footer {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: transparent; }
+    background-color: rgba(0, 0, 0, 0); }
   .next-project.post-module .overlay:hover {
     background-color: rgba(47, 184, 144, 0.5);
     -webkit-transition: 200ms ease-out;
