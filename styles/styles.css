@@ -1258,7 +1258,7 @@ footer {
     left: 0;
     background-color: rgba(0, 0, 0, 0); }
   .projects.post-module .overlay:hover {
-    background-color: rgba(47, 184, 144, 0.4);
+    background-color: rgba(47, 184, 144, 0.85);
     -webkit-transition: 100ms ease-out;
     transition: 100ms 100ms ease-out; }
   .projects.post-module .view-wrap {
@@ -1350,7 +1350,7 @@ footer {
     left: 0;
     background-color: rgba(0, 0, 0, 0); }
   .next-project.post-module .overlay:hover {
-    background-color: rgba(47, 184, 144, 0.5);
+    background-color: rgba(47, 184, 144, 0.85);
     -webkit-transition: 200ms ease-out;
     transition: 200ms 100ms ease-out; }
   .next-project.post-module .view-wrap {
@@ -1465,11 +1465,11 @@ footer {
   .main-content .page-body {
     padding: 0 2.5%;
     margin: 0 auto;
-    font-size: 165%; }
+    font-size: 162%; }
   .main-content h1 {
     width: 90%; }
   .main-content p {
-    font-size: 165%;
+    font-size: 162%;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 1.4em; }
@@ -1494,17 +1494,28 @@ footer {
   padding: 2em 0;
   background-color: #ffffff; }
 
-.profile-body h1 {
-  width: 100%;
-  margin: 0 auto;
-  color: #db504a;
-  font-size: 3.5rem;
-  font-family: UnitRoundedWeb, Helvetica, Arial; }
+.profile-image {
+  margin-top: -2em; }
+
+.profile-body {
+  padding-top: 3rem; }
+  .profile-body h1 {
+    width: 100%;
+    margin: 0 auto;
+    color: #db504a;
+    font-size: 3.5rem;
+    font-family: UnitRoundedWeb, Helvetica, Arial;
+    line-height: 3.875rem;
+    padding-bottom: 1.75rem; }
 
 @media only screen and (min-width: 480px) {
-  .profile-body h1 {
-    width: 90%;
-    font-size: 4.75rem; } }
+  .profile-body {
+    padding-top: 4rem; }
+    .profile-body h1 {
+      width: 90%;
+      font-size: 4.75rem;
+      line-height: 5.35rem;
+      padding-bottom: 3rem; } }
 @media only screen and (min-width: 640px) {
   .profile-body h1 {
     width: 80%; } }
