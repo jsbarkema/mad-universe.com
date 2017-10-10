@@ -1258,7 +1258,7 @@ footer {
     left: 0;
     background-color: rgba(0, 0, 0, 0); }
   .projects.post-module .overlay:hover {
-    background-color: rgba(47, 184, 144, 0.4);
+    background-color: rgba(47, 184, 144, 0.85);
     -webkit-transition: 100ms ease-out;
     transition: 100ms 100ms ease-out; }
   .projects.post-module .view-wrap {
@@ -1350,7 +1350,7 @@ footer {
     left: 0;
     background-color: rgba(0, 0, 0, 0); }
   .next-project.post-module .overlay:hover {
-    background-color: rgba(47, 184, 144, 0.5);
+    background-color: rgba(47, 184, 144, 0.85);
     -webkit-transition: 200ms ease-out;
     transition: 200ms 100ms ease-out; }
   .next-project.post-module .view-wrap {
