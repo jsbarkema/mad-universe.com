@@ -840,12 +840,31 @@ hr {
 .prev-next {
   height: 8rem; }
   .prev-next .prev {
-    text-align: left;
-    padding-top: 2.2%; }
+    text-align: left; }
   .prev-next .next {
-    text-align: right;
-    padding-top: 2.2%; }
+    text-align: right; }
+  .prev-next .columns {
+    width: 50%; }
+  .prev-next a span {
+    display: none; }
+  .prev-next a strong {
+    display: block;
+    font-weight: normal;
+    padding-top: 16.5%; }
+  @media (min-width: 400px) {
+    .prev-next .prev {
+      padding-top: 3rem; }
+    .prev-next .next {
+      padding-top: 3rem; }
+    .prev-next a span {
+      display: block; }
+    .prev-next a strong {
+      display: none;
+      font-weight: normal; } }
 
+@media (min-width: 480px) {
+  .prev-next .columns {
+    width: 48%; } }
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */
@@ -1022,25 +1041,32 @@ footer {
   color: #555555; }
 
 .header-home {
-  height: auto;
   text-align: center;
   padding-bottom: 2.5em;
-  height: 85%;
+  height: 75rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
   .header-home img {
     max-width: inherit; }
 
+@media only screen and (min-width: 640px) {
+  .header-home {
+    height: 100vh; } }
 .home-intro {
+  height: auto;
+  margin-top: 5rem;
   position: relative;
-  top: 45%;
+  top: 35%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
   .home-intro p {
     color: #ffffff; }
 
+@media only screen and (min-width: 640px) {
+  .home-intro {
+    margin-top: 3rem; } }
 .header-projects {
   text-align: center;
   background-repeat: no-repeat;
@@ -1076,7 +1102,7 @@ footer {
     width: 95%; }
     .projects-title h1 {
       position: relative;
-      top: 45%;
+      top: 35%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
