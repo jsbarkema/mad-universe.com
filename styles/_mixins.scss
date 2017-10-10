@@ -38,7 +38,7 @@
 	background-color: $color;
 }
 
-@mixin vertical-align($position: relative,$top: 45%) {
+@mixin vertical-align($position: relative,$top: 35%) {
   position: $position;
   top: $top;
   -webkit-transform: translateY(-50%);

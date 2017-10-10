@@ -1,31 +1,53 @@
-{% if type == 'post' and (next or previous) %}
-<section class="row">
-  {% if next %}
-  <article class="next-project post-module twelve columns">
-    <a href="{{ next.url }}">
-      <div class="post-thumb">
-        <img src="{{ next.meta['next_project_banner'] }}" class="u-full-width">
-      </div>
-      <div class="overlay">
-        <div class="project-header container">
-          <h3><span>Next Project</span><br>{{ next.title }}</h3>
-        </div>
-      </div>
-    </a>
-  </article>
-  {% else %}
-  <article class="next-project post-module twelve columns">
-    <a href="{{ previous.url }}">
-      <div class="post-thumb">
-        <img src="{{ previous.meta['next_project_banner'] }}" class="u-full-width">
-      </div>
-      <div class="overlay">
-        <div class="project-header container">
-          <h3><span>Next Project</span><br>{{ previous.title }}</h3>
-        </div>
-      </div>
-    </a>
-  </article>
-  {% endif %}
-</section>
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+{% if page.collection %}
+  {% assign  document = site[the_collection]  %}
 {% endif %}
+
+{% for links in document  %}
+{% if forloop.first %}
+  {% assign first = links %}
+{% endif %}
+{% if forloop.last %}
+  {% assign last = links %}
+{% endif %}
+  {% if links.title == page.title %}
+  {% unless forloop.first %}
+    {% assign prevurl = prev.url %}
+  {% endunless %}
+  {% unless forloop.last %}
+    {% assign next = document[forloop.index] %}
+    {% assign nexturl = next.url %}
+  {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+
+{% assign firsturl = first.url %}
+{% assign lasturl = last.url %}
+
+<div class="prev-next">
+  <div class="container">
+    <div class="six columns prev">
+      {% if prevurl %}
+        <a href="{{ prevurl }}">
+        <span>← {{ page.previous.title }}</span>
+        <strong>← Previous</strong></a>
+        {% else %}
+        <a href="{{ lasturl }}" class="prev">
+        <span>← {{ page.title }}</span>
+        <strong>← Previous</strong></a>
+      {% endif %}
+    </div>
+    <div class="six columns next">
+      {% if nexturl %}
+        <a href="{{ nexturl }}">
+        <span>{{ page.next.title }} →</span>
+        <strong>Next →</strong></a>
+        {% else %}
+        <a href="{{ firsturl }}" class="prev">
+        <span>{{ page.title }} →</span>
+        <strong>Next →</strong></a>
+      {% endif %}
+    </div>
+  </div>
+</div>

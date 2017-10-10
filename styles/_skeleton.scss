@@ -388,15 +388,54 @@ hr {
 
   .prev {
     text-align: left;
-    padding-top: 2.2%;
   }
 
   .next {
     text-align: right;
-    padding-top: 2.2%;
+  }
+
+  .columns {
+    width: 50%;
+  }
+
+  a span {
+    display: none;
+  }
+
+  a strong {
+    display: block;
+    font-weight: normal;
+    padding-top: 16.5%;
+  }
+
+  @media (min-width: 400px) {
+    .prev {
+      padding-top: 3rem;
+    }
+
+    .next {
+      padding-top: 3rem;
+    }
+
+    a span {
+      display: block;
+    }
+
+    a strong {
+      display: none;
+      font-weight: normal;
+    }
   }
 }
 
+@media (min-width: 480px) {
+  .prev-next {
+
+    .columns {
+      width: 48%;
+    }
+  }
+}
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
