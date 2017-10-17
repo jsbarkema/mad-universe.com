@@ -8,12 +8,13 @@
           <img src="{{ page.images.medium_image }}" class="u-full-width">
         </div>
         <div class="overlay">
-          <div class="view-wrap">
-            <div class="project-header" style="display:block;">
-              <h3>{{ page.title }}</h3>
+          <a href="{{ page.url }}">
+            <div class="view-wrap">
+              <div class="project-header" style="display:block;">
+                <h3>{{ page.title }}</h3>
+              </div>
             </div>
-            <a href="{{ page.url }}" class="view button">View project &raquo;</a>
-          </div>
+          </a>
         </div>
       </article>
     {% endfor %}

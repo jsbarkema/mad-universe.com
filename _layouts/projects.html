@@ -25,14 +25,16 @@ layout: default
 				<div class="post-thumb">
 					<img src="{{ page.images.medium_image }}" alt="" class="u-full-width">
 				</div>
-				<div class="overlay">
-					<div class="view-wrap">
-						<div style="display:block;">
-							<h3>{{ page.title }}</h3>
+				<a href="{{ page.url }}">
+					<div class="overlay">
+						<div class="view-wrap">
+							<div style="display:block;">
+								<h3>{{ page.title }}</h3>
+							</div>
+							<!--<a href="{{ page.url }}" class="view button">View project &raquo;</a>-->
 						</div>
-						<a href="{{ page.url }}" class="view button">View project &raquo;</a>
 					</div>
-				</div>
+				</a>
 			</article>
 	  {% endfor %}
 		</section>

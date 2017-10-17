@@ -318,8 +318,8 @@ footer {
 
     h1 {
       @include vertical-align();
-      font-size: 8rem;
-      line-height: 8.5rem;
+      font-size: 7.25rem;
+      line-height: 8.125rem;
       padding: 0 .5em;
     }
   }
@@ -523,6 +523,9 @@ footer {
   width: 100%;
   margin: 0;
   float: left;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  box-sizing: border-box;
 
   &:nth-child(odd) {
     margin-left: 0;
@@ -543,11 +546,9 @@ footer {
   .project-header {
     position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
-    padding: 1em 0 0 1em;
+    height: 100%;
     z-index: 6;
-    text-align: left;
+    text-align: center;
   }
 
   .project-header h3 {
@@ -560,8 +561,8 @@ footer {
   }
 
   .project-header h3:hover {
-    transform: translateY(5px);
     opacity: 1.0;
+    width: 90%;
   }
 
   .overlay {
@@ -570,7 +571,7 @@ footer {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.0);
+    background-color: rgba(47,184,144,0.85);
   }
 
   .overlay:hover {
@@ -579,7 +580,7 @@ footer {
   }
 
   .view-wrap {
-    opacity: 0;
+    opacity: 1;
     text-align: center;
     z-index: 5;
     width: 100%;
@@ -588,17 +589,14 @@ footer {
 
     h3 {
       position: absolute;
-      top: 0;
-      left: 0;
-      padding: .25em 0 0 .5em;
+      top: 50%;
+      left: 50%;
       z-index: 6;
-      text-align: left;
       color: #ffffff;
       font-family: UnitRoundedWeb, Helvetica, Arial;
-      opacity: 0;
-      transform: translateY(0px);
-      -webkit-transition: all 200ms ease-out;
-  	          transition: all 200ms ease-out;
+      opacity: 1.0;
+      transform: translate(-50%, -50%);
+      width: 90%;
     }
   }
 
@@ -607,7 +605,7 @@ footer {
     @include transition-bgcolor;
 
     h3 {
-      transform: translateY(10px);
+      width: 90%;
       opacity: 1.0;
     }
   }
@@ -615,6 +613,7 @@ footer {
   .view {
     display: inline-block;
     margin-top: 23%;
+    transform: translate(-50%, -50%);
   }
 
   .view-wrap .button {
@@ -636,17 +635,25 @@ footer {
   .projects.post-module {
     width: 50%;
 
+    &:nth-child(odd) {
+      border-right: 1px solid #ffffff;
+    }
+
     .view-wrap {
 
       h3 {
-        padding: 0 0 0 .5em;
         font-size: 1em;
+        opacity: 0;
       }
     }
 
     .view-wrap .button {
       font-size: .75em;
       padding: 0 15px;
+    }
+
+    .overlay {
+      background-color: rgba(47,184,144,0);
     }
   }
 }
@@ -658,7 +665,6 @@ footer {
     .view-wrap {
 
       h3 {
-        padding: .125em 0 0 .5em;
         font-size: 2.25rem;
       }
     }

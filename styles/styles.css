@@ -1106,8 +1106,8 @@ footer {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
-      font-size: 8rem;
-      line-height: 8.5rem;
+      font-size: 7.25rem;
+      line-height: 8.125rem;
       padding: 0 .5em; } }
 .header-projects:after {
   z-index: 1;
@@ -1247,7 +1247,10 @@ footer {
   overflow: hidden;
   width: 100%;
   margin: 0;
-  float: left; }
+  float: left;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  box-sizing: border-box; }
   .projects.post-module:nth-child(odd) {
     margin-left: 0; }
   .projects.post-module .post-thumb {
@@ -1261,11 +1264,9 @@ footer {
   .projects.post-module .project-header {
     position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
-    padding: 1em 0 0 1em;
+    height: 100%;
     z-index: 6;
-    text-align: left; }
+    text-align: center; }
   .projects.post-module .project-header h3 {
     color: #ffffff;
     font-family: UnitRoundedWeb, Helvetica, Arial;
@@ -1274,21 +1275,21 @@ footer {
     -webkit-transition: all 200ms ease-out;
     transition: all 200ms ease-out; }
   .projects.post-module .project-header h3:hover {
-    transform: translateY(5px);
-    opacity: 1.0; }
+    opacity: 1.0;
+    width: 90%; }
   .projects.post-module .overlay {
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0); }
+    background-color: rgba(47, 184, 144, 0.85); }
   .projects.post-module .overlay:hover {
     background-color: rgba(47, 184, 144, 0.85);
     -webkit-transition: 100ms ease-out;
     transition: 100ms 100ms ease-out; }
   .projects.post-module .view-wrap {
-    opacity: 0;
+    opacity: 1;
     text-align: center;
     z-index: 5;
     width: 100%;
@@ -1296,27 +1297,25 @@ footer {
     position: absolute; }
     .projects.post-module .view-wrap h3 {
       position: absolute;
-      top: 0;
-      left: 0;
-      padding: .25em 0 0 .5em;
+      top: 50%;
+      left: 50%;
       z-index: 6;
-      text-align: left;
       color: #ffffff;
       font-family: UnitRoundedWeb, Helvetica, Arial;
-      opacity: 0;
-      transform: translateY(0px);
-      -webkit-transition: all 200ms ease-out;
-      transition: all 200ms ease-out; }
+      opacity: 1.0;
+      transform: translate(-50%, -50%);
+      width: 90%; }
   .projects.post-module .view-wrap:hover {
     opacity: 1.0;
     -webkit-transition: 100ms ease-out;
     transition: 100ms 100ms ease-out; }
     .projects.post-module .view-wrap:hover h3 {
-      transform: translateY(10px);
+      width: 90%;
       opacity: 1.0; }
   .projects.post-module .view {
     display: inline-block;
-    margin-top: 23%; }
+    margin-top: 23%;
+    transform: translate(-50%, -50%); }
   .projects.post-module .view-wrap .button {
     border-radius: 0;
     border: 2px solid #ffffff;
@@ -1330,15 +1329,18 @@ footer {
 @media only screen and (min-width: 640px) {
   .projects.post-module {
     width: 50%; }
+    .projects.post-module:nth-child(odd) {
+      border-right: 1px solid #ffffff; }
     .projects.post-module .view-wrap h3 {
-      padding: 0 0 0 .5em;
-      font-size: 1em; }
+      font-size: 1em;
+      opacity: 0; }
     .projects.post-module .view-wrap .button {
       font-size: .75em;
-      padding: 0 15px; } }
+      padding: 0 15px; }
+    .projects.post-module .overlay {
+      background-color: rgba(47, 184, 144, 0); } }
 @media only screen and (min-width: 1000px) {
   .projects.post-module .view-wrap h3 {
-    padding: .125em 0 0 .5em;
     font-size: 2.25rem; }
   .projects.post-module .view-wrap .button {
     padding: 0 30px;
